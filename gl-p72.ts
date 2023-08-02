@@ -10,7 +10,7 @@ const template: SED = {
   toolCars: [
     {
       car_id: '911gts',
-      fullName: 'Purchase 911 GTS Coupe',
+      fullName: 'Porsche 911 GTS Coupe',
       nickName: '911GTS',
       star: 3,
       isKeyCar: false,
@@ -111,7 +111,7 @@ const template: SED = {
     },
     {
       car_id: 'centodieci',
-      fullName: 'Bugaatti Centodieci🔑', 
+      fullName: 'Bugatti Centodieci🔑', 
       nickName: '白龙',
       star: 6,
       isKeyCar: true,
@@ -119,7 +119,7 @@ const template: SED = {
     },
     {
       car_id: '935',
-      fullName: 'Purchase 935(2019)🔑', 
+      fullName: 'Porsche 935(2019)🔑', 
       nickName: '935',
       star: 6,
       isKeyCar: true,
@@ -151,7 +151,8 @@ const template: SED = {
     { conditions: 555, reword: { type: 'seKey', count: 1 } },
   ],
   notes: [
-    "感觉……不如Driver 555"
+    "感觉……不如Driver 555",
+    '每关解锁条件已大幅降低，关于逆天难度的旧版，可前往历史赛事中查看~',
   ],
   stages: [
     
@@ -253,7 +254,7 @@ const template: SED = {
     
     {
       stage: 4,
-      unlockConditions: 60,
+      unlockConditions: 50,
       clubRewords: [
         { type: 'credit', count: 10000 },
       ],
@@ -296,7 +297,7 @@ const template: SED = {
     
     {
       stage: 5,
-      unlockConditions: 90,
+      unlockConditions: 70,
       clubRewords: [
         { type: 'credit', count: 10000 },
       ],
@@ -339,7 +340,7 @@ const template: SED = {
     
     {
       stage: 6,
-      unlockConditions: 120,
+      unlockConditions: 90,
       clubRewords: [
         { type: 'token', count: 20 },
       ],
@@ -366,7 +367,7 @@ const template: SED = {
     
     {
       stage: 7,
-      unlockConditions: 150,
+      unlockConditions: 110,
       clubRewords: [
         { type: 'credit', count: 10000 },
       ],
@@ -394,7 +395,7 @@ const template: SED = {
     
     {
       stage: 8,
-      unlockConditions: 180,
+      unlockConditions: 130,
       clubRewords: [
         { type: 'credit', count: 10000 },
       ],
@@ -420,7 +421,7 @@ const template: SED = {
     
     {
       stage: 9,
-      unlockConditions: 210,
+      unlockConditions: 150,
       clubRewords: [
         { type: 'credit', count: 10000 },
       ],
@@ -447,7 +448,7 @@ const template: SED = {
     
     {
       stage: 10,
-      unlockConditions: 240,
+      unlockConditions: 170,
       clubRewords: [
         { type: 'token', count: 25 },
       ],
@@ -473,7 +474,7 @@ const template: SED = {
     
     {
       stage: 11,
-      unlockConditions: 270,
+      unlockConditions: 190,
       clubRewords: [
         { type: 'credit', count: 20000 },
       ],
@@ -515,7 +516,7 @@ const template: SED = {
     
     {
       stage: 12,
-      unlockConditions: 300,
+      unlockConditions: 210,
       clubRewords: [
         { type: 'credit', count: 20000 },
       ],
@@ -557,7 +558,7 @@ const template: SED = {
     
     {
       stage: 13,
-      unlockConditions: 330,
+      unlockConditions: 225,
       clubRewords: [
         { type: 'credit', count: 20000 },
       ],
@@ -598,7 +599,7 @@ const template: SED = {
     
     {
       stage: 14,
-      unlockConditions: 360,
+      unlockConditions: 245,
       clubRewords: [
         { type: 'credit', count: 20000 },
       ],
@@ -639,7 +640,7 @@ const template: SED = {
     
     {
       stage: 15,
-      unlockConditions: 390,
+      unlockConditions: 260,
       clubRewords: [
         { type: 'credit', count: 20000 },
       ],
@@ -681,7 +682,7 @@ const template: SED = {
     
     {
       stage: 16,
-      unlockConditions: 420,
+      unlockConditions: 280,
       clubRewords: [
         { type: 'credit', count: 20000 },
       ],
@@ -723,7 +724,7 @@ const template: SED = {
     
     {
       stage: 17,
-      unlockConditions: 450,
+      unlockConditions: 300,
       clubRewords: [
         { type: 'credit', count: 20000 },
       ],
@@ -765,7 +766,7 @@ const template: SED = {
     
     {
       stage: 18,
-      unlockConditions: 480,
+      unlockConditions: 315,
       clubRewords: [
         { type: 'credit', count: 25000 },
       ],
@@ -831,7 +832,7 @@ const template: SED = {
 
     {
       stage: 19,
-      unlockConditions:480,
+      unlockConditions:330,
       clubRewords:[
 
       ],
