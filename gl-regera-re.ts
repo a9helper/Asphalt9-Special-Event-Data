@@ -666,7 +666,7 @@ const template: SED = {
     },
     {
       stage: 16,
-      unlockConditions: 325,
+      unlockConditions: 350,
       clubRewords: [],
       missions: [
                 
@@ -688,7 +688,7 @@ const template: SED = {
     },
     {
       stage: 17,
-      unlockConditions: 190,
+      unlockConditions: 350,
       clubRewords: [],
       missions: [
         

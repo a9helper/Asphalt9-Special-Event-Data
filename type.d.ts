@@ -12,7 +12,7 @@ interface SEToolCar {
 }
 
 interface reword extends UUID {
-  type: 'seCard' | 'seKey' | 'token' | 'sePack' | 'sePart' | 'credit' | 'seSkin'
+  type: 'seCard' | 'seKey' | 'token' | 'sePack' | 'sePart' | 'credit' | 'seSkin' | 'seasonToken'
   count: number
 }
 
