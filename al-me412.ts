@@ -808,7 +808,7 @@ const specialEventData: SED = {
         {
           conditions: 0,
           join: {
-            star: 6,
+            star: 1,
             rank: 0,
           },
           toolCars: [{ car_id: 'me412', freeTry: true }],
