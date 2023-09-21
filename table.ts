@@ -1,4 +1,4 @@
-import data from './al-spano.ts'
+import data from './al-fordp1.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub\n'
 let conditionsCount = 0

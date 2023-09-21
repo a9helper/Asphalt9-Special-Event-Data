@@ -77,7 +77,7 @@ const specialEventData: SED = {
   notes: [
     "不要忘记勾选【已解锁】GTA Spano ！",
     "全部阶段解锁条件：有四辆工具车为2星，其中1辆必须为大众，其他3辆中必须包含【D8和F50中的1辆】。",
-    "如果没有3星Spano，则必须要7辆工具车2星才能获得贴纸。",
+    "如果满足以上条件（可获得279条件）并再有第5辆满星工具车，则就可以获得贴纸了。",
     "以上为理论奖励，还需要满足在规定时间内完成比赛等条件。"
   ],
   processRewords: [
@@ -268,7 +268,7 @@ const specialEventData: SED = {
       missions: [
 
         {
-          conditions: 5,
+          conditions: 7,
           join: {
             star: 1,
             rank: 0,
@@ -279,7 +279,7 @@ const specialEventData: SED = {
           ],
         },
         {
-          conditions: 7,
+          conditions: 5,
           join: {
             star: 2,
             rank: 0,
@@ -298,7 +298,7 @@ const specialEventData: SED = {
       clubRewords: [{ type: 'token', count: 25 }],
       missions: [
         {
-          conditions: 5,
+          conditions: 7,
           join: {
             star: 1,
             rank: 0,
@@ -309,7 +309,7 @@ const specialEventData: SED = {
           ],
         },
         {
-          conditions: 7,
+          conditions: 5,
           join: {
             star: 2,
             rank: 0,
