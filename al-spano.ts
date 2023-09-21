@@ -331,7 +331,7 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 5,
+          conditions: 7,
           join: {
             star: 1,
             rank: 0,
@@ -342,7 +342,7 @@ const specialEventData: SED = {
           ],
         },
         {
-          conditions: 7,
+          conditions: 5,
           join: {
             star: 2,
             rank: 0,
@@ -543,17 +543,49 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 19,
+          conditions: 4,
           join: {
-            star: 1,
+            star: 3,
             rank: 0,
           },
           toolCars: [{ car_id: 'spano', freeTry: false }],
           rewords: [
-            { type: 'seCard', count: 6 },
-            { type: 'token', count: 2550 },
-            { type: 'credit', count: 1400000 },
-            { type: 'sePart', count: 1 },
+            { type: 'credit', count: 200000 },
+          ],
+        },
+        {
+          conditions: 10,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'spano', freeTry: false }],
+          rewords: [
+            { type: 'token', count: 600 },
+            { type: 'credit', count: 200000 },
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'spano', freeTry: false }],
+          rewords: [
+            { type: 'token', count: 750 },
+            { type: 'credit', count: 1000000 },
+          ],
+        },
+        {
+          conditions: 1,
+          join: {
+            star: 6,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'spano', freeTry: false }],
+          rewords: [
+            { type: 'token', count: 1200 },
           ],
         },
       ],
