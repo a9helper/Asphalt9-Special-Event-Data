@@ -1,4 +1,4 @@
-;[
+[
   {
     car_id: 'lancer',
     fullName: 'Mitsubishi Lancer Evolution',
