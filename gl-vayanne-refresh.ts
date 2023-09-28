@@ -787,7 +787,7 @@ const template: SED = {
     
     {
       stage: 12,
-      unlockConditions: 275,
+      unlockConditions: 250,
       clubRewords: [],
       missions: [
         
@@ -815,7 +815,7 @@ const template: SED = {
     
     {
       stage: 13,
-      unlockConditions: 310,
+      unlockConditions: 250,
       clubRewords: [],
       missions: [
         
@@ -842,7 +842,7 @@ const template: SED = {
     
     {
       stage: 14,
-      unlockConditions: 340,
+      unlockConditions: 250,
       clubRewords: [],
       missions: [
         
@@ -869,7 +869,7 @@ const template: SED = {
     
     {
       stage: 15,
-      unlockConditions: 360,
+      unlockConditions: 250,
       clubRewords: [],
       missions: [
              
@@ -900,7 +900,7 @@ const template: SED = {
     
     {
       stage: 16,
-      unlockConditions: 380,
+      unlockConditions: 250,
       clubRewords: [],
       missions: [
              
@@ -928,7 +928,7 @@ const template: SED = {
 
     {
       stage: 17,
-      unlockConditions:400,
+      unlockConditions:250,
       clubRewords:[
 
       ],
@@ -956,7 +956,7 @@ const template: SED = {
     },
     {
       stage: 18,
-      unlockConditions:415,
+      unlockConditions:400,
       clubRewords:[
 
       ],
