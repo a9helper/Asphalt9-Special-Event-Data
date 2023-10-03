@@ -1,4 +1,4 @@
-[
+;[
   {
     car_id: 'lancer',
     fullName: 'Mitsubishi Lancer Evolution',
@@ -267,7 +267,7 @@
     car_id: 'e1400',
     fullName: 'Ford Mustang Mach-E1400',
     nickName: '电马',
-    isKeyCar: false,
+    isKeyCar: true,
     rankLimits: [],
     star: 5,
   },
@@ -1771,7 +1771,7 @@
     car_id: '300+',
     fullName: 'Bugatti Chiron Super Sport 300+',
     nickName: '300+',
-    isKeyCar: false,
+    isKeyCar: true,
     rankLimits: [],
     star: 6,
   },
@@ -1795,7 +1795,7 @@
     car_id: 'vayanne',
     fullName: 'Deus Vayanne',
     nickName: 'Vayanne',
-    isKeyCar: false,
+    isKeyCar: true,
     rankLimits: [],
     star: 6,
   },

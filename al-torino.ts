@@ -69,13 +69,13 @@ const specialEventData: SED = {
       car_id: 'torino',
       fullName: 'Torino Design Super Sport🔑',
       nickName: '都灵',
-      isKeyCar: false,
+      isKeyCar: true,
       rankLimits: [],
       star: 6,
     },
   ],
   notes: [
-    "尚未精校，恰个饭回来核对一下。"
+    "！"
   ],
   processRewords: [
     { conditions: 58, reword: { type: 'seCard', count: 1 } },
