@@ -1,4 +1,4 @@
-import data from './al-fordp1.ts'
+import data from './gl-2310-aperta.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub\n'
 let conditionsCount = 0
@@ -74,3 +74,5 @@ csv += `process,,,${cardPersonal || ''},,${partPersonal || ''},,${
   tokenPersonal || ''
 },,${creditPersonal || ''},\n`
 await Deno.writeTextFile('./table.csv', csv)
+
+console.log('输出成功！')

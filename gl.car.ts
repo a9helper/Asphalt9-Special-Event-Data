@@ -34,7 +34,7 @@
   {
     car_id: '370',
     fullName: 'Nissan 370Z Nismo',
-    nickName: 370,
+    nickName: '370',
     isKeyCar: false,
     rankLimits: [],
     star: 3,
@@ -64,9 +64,9 @@
     star: 3,
   },
   {
-    car_id: 392,
+    car_id: '392',
     fullName: 'Dodge Challenger 392 Hemi Scat Pack',
-    nickName: 392,
+    nickName: '392',
     isKeyCar: false,
     rankLimits: [],
     star: 3,
@@ -106,7 +106,7 @@
   {
     car_id: '718',
     fullName: 'Porsche 718 Cayman',
-    nickName: 718,
+    nickName: '718',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -562,7 +562,7 @@
   {
     car_id: '33',
     fullName: 'Arrinera Hussarya 33',
-    nickName: 33,
+    nickName: '33',
     isKeyCar: false,
     rankLimits: [],
     star: 5,
@@ -610,7 +610,7 @@
   {
     car_id: '911',
     fullName: 'Porsche 911 GTS Coupe',
-    nickName: 911,
+    nickName: '911',
     isKeyCar: false,
     rankLimits: [],
     star: 3,
@@ -738,7 +738,7 @@
   {
     car_id: '488',
     fullName: 'Ferrari 488 GTB',
-    nickName: 488,
+    nickName: '488',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -848,7 +848,7 @@
     star: 5,
   },
   {
-    car_id: 550,
+    car_id: '550',
     fullName: 'Sin R1 550',
     nickName: 'sin',
     isKeyCar: false,
@@ -1130,7 +1130,7 @@
   {
     car_id: '812',
     fullName: 'Ferrari 812 SuperFast',
-    nickName: 812,
+    nickName: '812',
     isKeyCar: false,
     rankLimits: [],
     star: 5,
@@ -1186,7 +1186,7 @@
   {
     car_id: '918',
     fullName: 'Porsche 918 Spyder',
-    nickName: 918,
+    nickName: '918',
     isKeyCar: false,
     rankLimits: [],
     star: 5,
@@ -1210,7 +1210,7 @@
   {
     car_id: '570',
     fullName: 'McLaren 570S Spider',
-    nickName: 570,
+    nickName: '570',
     isKeyCar: false,
     rankLimits: [],
     star: 6,
