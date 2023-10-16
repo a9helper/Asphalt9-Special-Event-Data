@@ -68,6 +68,7 @@ const sed: SED = {
   notes: [
     '5星 XXE 可在阶段5获得 XXE 钥匙1把。',
     '6星488 EVO 可在阶段7获得 488 EVO 钥匙1把。',
+    '关卡解锁条件已降低，原条件可参考2022年同款赛事。',
   ],
   processRewords: [
     {
@@ -327,7 +328,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 50,
+      unlockConditions: 30,
       clubRewords: [
         {
           type: 'credit',
@@ -384,7 +385,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 80,
+      unlockConditions: 60,
       clubRewords: [
         {
           type: 'credit',
@@ -505,7 +506,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 110,
+      unlockConditions: 80,
       clubRewords: [
         {
           type: 'credit',
@@ -626,7 +627,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 150,
+      unlockConditions: 100,
       clubRewords: [
         {
           type: 'credit',
@@ -702,7 +703,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 175,
+      unlockConditions: 125,
       clubRewords: [
         {
           type: 'credit',
@@ -847,7 +848,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 210,
+      unlockConditions: 150,
       clubRewords: [
         {
           type: 'credit',
@@ -992,7 +993,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 250,
+      unlockConditions: 180,
       clubRewords: [
         {
           type: 'credit',
@@ -1095,7 +1096,7 @@ const sed: SED = {
       ],
     },
     {
-      unlockConditions: 280,
+      unlockConditions: 240,
       clubRewords: [],
       missions: [
         {
