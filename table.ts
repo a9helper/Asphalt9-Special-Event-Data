@@ -1,4 +1,4 @@
-import data from './gl-rimac-cs.ts'
+import data from './al-2310-ccxr.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub\n'
 let conditionsCount = 0
