@@ -1,4 +1,4 @@
-import data from './gl-2311-chiron.ts'
+import data from './al-2311-xjr-9.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub\n'
 let conditionsCount = 0

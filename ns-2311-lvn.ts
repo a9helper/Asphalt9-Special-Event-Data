@@ -132,7 +132,7 @@ const template: SED = {
     
   ],
   notes: [
-    
+    "阶段 1 使用 2 星黑龙，可获得黑龙钥匙 1 把。"
   ],
   stages: [
     
