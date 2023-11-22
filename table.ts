@@ -1,6 +1,6 @@
-import data from './gl-2311-chiron.ts'
+import data from './gl-2311-300+.ts'
 let csv =
-  'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub\n'
+  'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
 let conditionsCount = 0
 for (const stage of data.stages) {
   const conditions = stage.missions.reduce(
@@ -52,11 +52,22 @@ for (const stage of data.stages) {
   const creditClub = stage.clubRewords
     .filter((r) => r.type === 'credit')
     .reduce((res, curr) => res + curr.count, 0)
+
+  const seasonTokenPersonal = stage.missions.reduce(
+    (acc, cur) =>
+      acc +
+      cur.rewords
+        .filter((r) => r.type === 'seasonToken')
+        .reduce((res, curr) => res + curr.count, 0),
+    0
+  )
   csv += `${stage.stage},${conditions},${conditionsCount},${
     cardPersonal || ''
   },${cardClub || ''},${partPersonal || ''},${partClub || ''},${
     tokenPersonal || ''
-  },${tokenClub || ''},${creditPersonal || ''},${creditClub || ''}\n`
+  },${tokenClub || ''},${creditPersonal || ''},${creditClub || ''},${
+    seasonTokenPersonal || ''
+  }\n`
 }
 const cardPersonal = data.processRewords
   .filter((r) => r.reword.type === 'seCard')
