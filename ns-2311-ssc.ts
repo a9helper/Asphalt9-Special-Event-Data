@@ -533,7 +533,7 @@ const template: SED = {
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
           join: {
             star: 6,
             rank: 0,
@@ -587,7 +587,7 @@ const template: SED = {
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
           join: {
             star: 6,
             rank: 0,
@@ -641,7 +641,7 @@ const template: SED = {
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
           join: {
             star: 6,
             rank: 0,
@@ -695,7 +695,7 @@ const template: SED = {
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
           join: {
             star: 6,
             rank: 0,
@@ -749,7 +749,7 @@ const template: SED = {
           ],
         },
         {
-          conditions: 7,
+          conditions: 9,
           join: {
             star: 5,
             rank: 0,
@@ -803,7 +803,7 @@ const template: SED = {
           ],
         },
         {
-          conditions: 7,
+          conditions: 9,
           join: {
             star: 6,
             rank: 0,
@@ -857,7 +857,7 @@ const template: SED = {
           ],
         },
         {
-          conditions: 7,
+          conditions: 9,
           join: {
             star: 6,
             rank: 0,
