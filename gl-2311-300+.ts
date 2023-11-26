@@ -255,7 +255,7 @@ const template: SED = {
       missions: [
        
         {
-          conditions: 22,
+          conditions: 11,
           join: {
             star: 1,
             rank: 0,
@@ -267,6 +267,19 @@ const template: SED = {
           rewords: [
             
             { type: 'token', count: 30 },
+          ],
+        },
+        {
+          conditions: 11,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'c1', freeTry: false },
+          ],
+          rewords: [
+            
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 200000 },
             { type: 'seasonToken', count: 1400 },
