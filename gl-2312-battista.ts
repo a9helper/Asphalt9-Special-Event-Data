@@ -827,7 +827,7 @@ const template: SED = {
         {
           conditions: 13,
           join: {
-            star: 5,
+            star: 6,
             rank: 0,
           },
           toolCars: [{ car_id: 'battista', freeTry: false }],
