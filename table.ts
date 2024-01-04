@@ -1,4 +1,4 @@
-import data from './gl-2312-battista.ts'
+import data from './gl-2312-agera.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
 let conditionsCount = 0
