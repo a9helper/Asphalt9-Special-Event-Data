@@ -4,96 +4,74 @@ const template: SED = {
   havePack: false,
   haveClubRewords: true,
   haveSkin: true,
-  havePackConditions: false,
-  haveEventKey: false,
-  packConditions: 0,
+  havePackConditions: true,
+  haveEventKey: true,
+  packConditions:180,
   toolCars: [
     {
-      car_id: 'taycan',
-      fullName: 'Porsche Taycan Turbo S',
-      nickName: '电蛙',
+      car_id: "f50",
+      fullName: "Ferrari F50",
+      nickName: "F50",
       isKeyCar: false,
       rankLimits: [],
       star: 4,
     },
     {
-      car_id: 'sr1',
-      fullName: 'Peugeot SR1',
-      nickName: 'SR1',
-      isKeyCar: false,
-      rankLimits: [],
-      star: 4,
-    },
-    {
-      car_id: 'elva',
-      fullName: 'McLaren Elva',
-      nickName: 'Elva',
-      isKeyCar: false,
-      rankLimits: [],
-      star: 5,
-    },
-    {
-      car_id: 'invencible',
-      fullName: 'Lamborghini Invencible',
-      nickName: '无敌',
-      isKeyCar: false,
-      rankLimits: [],
-      star: 5,
-    },
-    {
-      car_id: '911gt1',
-      fullName: 'Porsche 911 GT1 Evolution',
-      nickName: '911GT1',
-      isKeyCar: false,
-      rankLimits: [],
-      star: 4,
-    },
-    {
-      car_id: 'veneno',
-      fullName: 'Lamborghini Veneno',
-      nickName: '毒药',
-      isKeyCar: false,
+      car_id: "911gt2",
+      fullName: "Porsche 911 GT2 RS ClubSport🔑",
+      nickName: "911GT2",
+      isKeyCar: true,
       rankLimits: [],
       star: 6,
     },
     {
-      car_id: 'visionamg',
-      fullName: 'Mercedes-Benz 2022 Showcar Vision AMG',
-      nickName: 'Vision AMG',
-      isKeyCar: false,
+      car_id: "mbbs",
+      fullName: "Mercedes-Benz Mercedes-AMG GT Black Series🔑",
+      nickName: "梅奔BS",
+      isKeyCar: true,
       rankLimits: [],
-      star: 4,
+      star: 5,
     },
     {
-      car_id: 'victor',
-      fullName: 'Aston Martin Victor',
-      nickName: 'Victor',
-      isKeyCar: false,
+      car_id: "f1",
+      fullName: "Mclaren F1 LM🔑",
+      nickName: "F1",
+      isKeyCar: true,
+      rankLimits: [],
+      star: 6,
+    },
+    {
+      car_id: "revuelto",
+      fullName: "Lamborghini Revuelto🔑",
+      nickName: "Revuelto",
+      isKeyCar: true,
       rankLimits: [],
       star: 6,
     },
 
+
+
+
+
+
     {
-      car_id: 'battista',
-      fullName: 'Automobili Pininfarina Battista',
-      nickName: '巴蒂',
-      isKeyCar: false,
+      car_id: "torino",
+      fullName: "Torino Design Super Sport🔑",
+      nickName: "都林",
+      isKeyCar: true,
       rankLimits: [],
-      star: 6, 
+      star: 6,
     },
   ],
   processRewords: [
-    { conditions: 10, reword: { type: 'seCard', count: 1 } },
-    { conditions: 20, reword: { type: 'token', count: 50 } },
     { conditions: 40, reword: { type: 'seCard', count: 1 } },
-    { conditions: 70, reword: { type: 'credit', count: 50000 } },
-    { conditions: 130, reword: { type: 'token', count: 100 } },
-    { conditions: 160, reword: { type: 'seCard', count: 2 } },
-    { conditions: 190, reword: { type: 'sePart', count: 1 } },
-    { conditions: 210, reword: { type: 'seCard', count: 2 } },
-    { conditions: 240, reword: { type: 'sePart', count: 1 } },
-    { conditions: 270, reword: { type: 'sePart', count: 2 } },
-    { conditions: 300, reword: { type: 'seSkin', count: 1 } },
+    { conditions: 80, reword: { type: 'seCard', count: 1 } },
+    { conditions: 140, reword: { type: 'seCard', count: 1 } },
+    { conditions: 200, reword: { type: 'seCard', count: 1 } },
+    { conditions: 270, reword: { type: 'sePart', count: 1 } },
+    { conditions: 300, reword: { type: 'sePart', count: 1 } },
+    { conditions: 340, reword: { type: 'seSkin', count: 1 } },
+    { conditions: 380, reword: { type: 'seKey', count: 1 } },
   ],
   notes: [
   ],
@@ -102,52 +80,75 @@ const template: SED = {
       stage: 1,
       unlockConditions: 0,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 10000 },
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 14,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'battista', freeTry: true }],
+          toolCars: [{ car_id: 'f50', freeTry: false }],
           rewords: [
-            { type: 'credit', count: 50000 },
-            { type: 'token', count: 40 },
-            { type: 'seasonToken', count: 1000 },
+            { type: 'seCard', count: 1 },
+            { type: 'credit', count: 250000 },
+          ],
+        },
+        {
+          conditions: 7,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'f50', freeTry: false }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'token', count: 75 },
           ],
         },
       ],
     },
     {
       stage: 2,
-      unlockConditions: 5,
+      unlockConditions: 15,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 10000 },
       ],
       missions: [
         {
-          conditions: 7,
+          conditions: 9,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'taycan', freeTry: false }],
+          toolCars: [{ car_id: '911gt2', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 75000 },
+            { type: 'seCard', count: 1 },
           ],
         },
         {
-          conditions: 4,
+          conditions: 7,
           join: {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'taycan', freeTry: false }],
+          toolCars: [{ car_id: '911gt2', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 2 },
-            { type: 'seasonToken', count: 500 },
+            { type: 'credit', count: 250000 },
+          ],
+        },
+        {
+          conditions: 7,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [{ car_id: '911gt2', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'token', count: 75 },
           ],
         },
       ],
@@ -155,214 +156,244 @@ const template: SED = {
     // generate stage 3 to 25 like stage 2
     {
       stage: 3,
-      unlockConditions: 10,
+      unlockConditions: 35,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 10000 },
       ],
       missions: [
         {
-          conditions: 7,
+          conditions: 14,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sr1', freeTry: false }],
+          toolCars: [{ car_id: 'mbbs', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 75000 },
+            { type: 'seCard', count: 1 },
+            { type: 'credit', count: 250000 },
           ],
         },
         {
-          conditions: 4,
+          conditions: 7,
           join: {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sr1', freeTry: false }],
+          toolCars: [{ car_id: 'mbbs', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 2 },
-            { type: 'seasonToken', count: 500 },
+            { type: 'token', count: 75 },
           ],
         },
       ],
     },
     {
       stage: 4,
-      unlockConditions: 15,
+      unlockConditions: 50,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'token', count: 20 },
       ],
       missions: [
         {
-          conditions: 6,
+          conditions: 14,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'elva', freeTry: false }],
+          toolCars: [{ car_id: 'torino', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 40000 },
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'elva', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 1 },
-            { type: 'seasonToken', count: 500 },
-          ],
-        },
-        {
-          conditions: 4,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'elva', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-            { type: 'credit', count: 50000 },
+            { type: 'token', count: 120 },
+            { type: 'credit', count: 200000 },
           ],
         },
       ],
     },
     {
       stage: 5,
-      unlockConditions: 30,
+      unlockConditions: 70,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 10000 },
       ],
       missions: [
         {
-          conditions: 7,
+          conditions: 9,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'invencible', freeTry: false }],
+          toolCars: [{ car_id: 'f1', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 75000 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+        {
+          conditions: 7,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'f1', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'credit', count: 375000 },
+          ],
+        },
+        {
+          conditions: 8,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'f1', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 3 },
+            { type: 'token', count: 100 },
           ],
         },
       ],
     },
     {
       stage: 6,
-      unlockConditions: 30,
+      unlockConditions: 85,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 10000 },
       ],
       missions: [
         {
-          conditions: 7,
+          conditions: 9,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: '911gt1', freeTry: false }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 90000 },
+            { type: 'seCard', count: 1 },
           ],
         },
         {
-          conditions: 4,
+          conditions: 7,
           join: {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: '911gt1', freeTry: false }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 2 },
-            { type: 'seasonToken', count: 500 },
+            { type: 'credit', count: 375000 },
+          ],
+        },
+        {
+          conditions: 8,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 3 },
+            { type: 'token', count: 100 },
           ],
         },
       ],
     },
     {
       stage: 7,
-      unlockConditions: 35,
+      unlockConditions: 100,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'token', count: 25 },
       ],
       missions: [
         {
-          conditions: 6,
+          conditions: 16,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'veneno', freeTry: false }],
+          toolCars: [{ car_id: 'torino', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 50000 },
-          ],
-        },
-        {
-          conditions: 4,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'veneno', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-            { type: 'seasonToken', count: 500 },
-          ],
-        },
-        {
-          conditions: 4,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'veneno', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-            { type: 'credit', count: 60000 },
+            { type: 'token', count: 160 },
+            { type: 'credit', count: 200000 },
           ],
         },
       ],
     },
     {
       stage: 8,
-      unlockConditions: 40,
+      unlockConditions: 120,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 20000 },
       ],
       missions: [
         {
-          conditions: 12,
+          conditions: 21,
           join: {
-            star: 1,
+            star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'battista', freeTry: true }],
+          toolCars: [{ car_id: 'f50', freeTry: false }],
           rewords: [
-            { type: 'credit', count: 180000 },
-            { type: 'token', count: 120 },
-            { type: 'seasonToken', count: 2000 },
+            { type: 'seCard', count: 3 },
+            { type: 'credit', count: 500000 },
+            { type: 'token', count: 100 },
+          ],
+        },
+        {
+          conditions: 10,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'f50', freeTry: false }],
+          rewords: [
+            { type: 'seCard', count: 4 },
+            { type: 'token', count: 150 },
+            { type: 'sePart', count: 1 },
           ],
         },
       ],
     },
     {
       stage: 9,
-      unlockConditions: 55,
+      unlockConditions: 145,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 20000 },
       ],
       missions: [
         {
-          conditions: 7,
+          conditions: 17,
           join: {
-            star: 1,
+            star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'visionamg', freeTry: false }],
+          toolCars: [{ car_id: '911gt2', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 105000 },
+            { type: 'seCard', count: 4 },
+            { type: 'token', count: 100 },
+          ],
+        },
+        {
+          conditions: 9,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: '911gt2', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 4 },
+            { type: 'credit', count: 500000 },
+          ],
+        },
+        {
+          conditions: 11,
+          join: {
+            star: 6,
+            rank: 0,
+          },
+          toolCars: [{ car_id: '911gt2', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 5 },
+            { type: 'token', count: 150 },
+            { type: 'sePart', count: 1 },
           ],
         },
       ],
@@ -370,471 +401,245 @@ const template: SED = {
 
     {
       stage: 10,
-      unlockConditions: 55,
+      unlockConditions: 170,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 20000 },
       ],
       missions: [
         {
-          conditions: 6,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'victor', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 60000 },
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'victor', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 1 },
-            { type: 'seasonToken', count: 500 },
-          ],
-        },
-        {
-          conditions: 4,
+          conditions: 16,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'victor', freeTry: false }],
+          toolCars: [{ car_id: 'mbbs', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 2 },
-            { type: 'credit', count: 70000 },
+            { type: 'seCard', count: 3 },
+            { type: 'token', count: 100 },
+          ],
+        },
+        {
+          conditions: 9,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'mbbs', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 4 },
+            { type: 'credit', count: 500000 },
+          ],
+        },
+        {
+          conditions: 11,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'mbbs', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 5 },
+            { type: 'token', count: 150 },
+            { type: 'sePart', count: 1 },
           ],
         },
       ],
     },
     {
       stage: 11,
-      unlockConditions: 60,
+      unlockConditions: 200,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 20000 },
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 17,
           join: {
-            star: 1,
+            star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'battista', freeTry: true }],
+          toolCars: [{ car_id: 'f1', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 120000 },
-            { type: 'token', count: 70 },
-            { type: 'seasonToken', count: 1000 },
+            { type: 'seCard', count: 4 },
+            { type: 'token', count: 100 },
+          ],
+        },
+        {
+          conditions: 9,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'f1', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 4 },
+            { type: 'credit', count: 750000 },
+          ],
+        },
+        {
+          conditions: 12,
+          join: {
+            star: 6,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'f1', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 5 },
+            { type: 'token', count: 150 },
+            { type: 'sePart', count: 2 },
           ],
         },
       ],
     },
     {
       stage: 12,
-      unlockConditions: 75,
+      unlockConditions: 230,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 20000 },
       ],
       missions: [
         {
-          conditions: 7,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'taycan', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 165000 },
-          ],
-        },
-        {
-          conditions: 7,
+          conditions: 17,
           join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'taycan', freeTry: false }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 4 },
-            { type: 'seasonToken', count: 700 },
+            { type: 'token', count: 100 },
+          ],
+        },
+        {
+          conditions: 9,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 4 },
+            { type: 'credit', count: 750000 },
+          ],
+        },
+        {
+          conditions: 12,
+          join: {
+            star: 6,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 5 },
+            { type: 'token', count: 150 },
+            { type: 'sePart', count: 2 },
           ],
         },
       ],
     },
     {
       stage: 13,
-      unlockConditions: 85,
+      unlockConditions: 270,
       clubRewords: [
-        { type: 'credit', count: 5000 },
+        { type: 'credit', count: 25000 },
       ],
       missions: [
         {
-          conditions: 7,
+          conditions: 10,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'torino', freeTry: true }],
+          rewords: [
+
+          ],
+        },
+        {
+          conditions: 8,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'torino', freeTry: true }],
+          rewords: [
+            { type: 'token', count: 100 },
+            { type: 'credit', count: 200000 },
+            
+          ],
+        },
+        {
+          conditions: 9,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sr1', freeTry: false }],
+          toolCars: [{ car_id: 'torino', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 180000 },
+            { type: 'token', count: 175 },
+            { type: 'credit', count: 300000 },
+            
+          ],
+        },
+        {
+          conditions: 11,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'torino', freeTry: true }],
+          rewords: [
+            { type: 'token', count: 375 },
+            { type: 'credit', count: 500000 },
+            { type: 'sePart', count: 1 },
+            
+          ],
+        },
+        {
+          conditions: 12,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'torino', freeTry: true }],
+          rewords: [
+            { type: 'token', count: 500 },
+            { type: 'credit', count: 750000 },
+            { type: 'sePart', count: 2 },
+            
           ],
         },
         {
           conditions: 7,
           join: {
-            star: 4,
+            star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sr1', freeTry: false }],
+          toolCars: [{ car_id: 'torino', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'seasonToken', count: 750 },
+            { type: 'credit', count: 1500000 },
+            { type: 'sePart', count: 2 },
+            
           ],
         },
       ],
     },
     {
       stage: 14,
-      unlockConditions: 100,
+      unlockConditions: 270,
       clubRewords: [
-        { type: 'credit', count: 10000 },
+
       ],
       missions: [
         {
-          conditions: 4,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'elva', freeTry: false }],
-          rewords: [
-            
-          ],
-        },
-        {
-          conditions: 4,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'elva', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-            { type: 'seasonToken', count: 800 },
-          ],
-        },
-        {
-          conditions: 8,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'elva', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 3 },
-            { type: 'sePart', count: 1 },
-            { type: 'credit', count: 225000 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 15,
-      unlockConditions: 110,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 7,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'invencible', freeTry: false }],
-          rewords: [
-            
-            { type: 'credit', count: 150000 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 16,
-      unlockConditions: 110,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 7,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: '911gt1', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 240000 },
-          ],
-        },
-        {
-          conditions: 7,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: '911gt1', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'seasonToken', count: 850 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 17,
-      unlockConditions: 125,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 6,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'veneno', freeTry: false }],
-          rewords: [
-            { type: 'seasonToken', count: 900 },
-            
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'veneno', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 255000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'veneno', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'sePart', count: 1 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 18,
-      unlockConditions: 135,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 12,
+          conditions: 0,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'battista', freeTry: true }],
+          toolCars: [{ car_id: 'torino', freeTry: false }],
           rewords: [
-            { type: 'credit', count: 225000 },
-            { type: 'token', count: 100 },
-            { type: 'seasonToken', count: 1000 },
-          ],
-        },
 
-      ],
-    },
-
-    {
-      stage: 19,
-      unlockConditions: 145,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 7,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'visionamg', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 180000 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 20,
-      unlockConditions: 150,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 6,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'victor', freeTry: false }],
-          rewords: [
-            { type: 'seasonToken', count: 1000 },
-            
-          ],
-        },
-        {
-          conditions: 5,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'victor', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 270000 },
-            { type: 'seCard', count: 2 },
-          ],
-        },
-        {
-          conditions: 7,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'victor', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 5 },
-            { type: 'sePart', count: 1 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 21,
-      unlockConditions: 180,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 12,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'battista', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 285000 },
-            { type: 'sePart', count: 1 },
-            { type: 'seasonToken', count: 1200 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 22,
-      unlockConditions: 195,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 12,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'battista', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 300000 },
-            { type: 'sePart', count: 1 },
-            { type: 'seasonToken', count: 1400 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 23,
-      unlockConditions: 220,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 13,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'battista', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 315000 },
-            { type: 'sePart', count: 2 },
-            { type: 'seasonToken', count: 1600 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 24,
-      unlockConditions: 240,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 13,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'battista', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 330000 },
-            { type: 'sePart', count: 2 },
-            { type: 'seasonToken', count: 1800 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 25,
-      unlockConditions: 250,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-      ],
-      missions: [
-        {
-          conditions: 13,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'battista', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 345000 },
-            { type: 'sePart', count: 2 },
-            { type: 'seasonToken', count: 2000 },
           ],
         },
       ],
