@@ -954,7 +954,7 @@
   {
     car_id: "invencible",
     fullName: "Lamborghini Invencible",
-    nickName: "无敌",
+    nickName: "无敌牛",
     isKeyCar: false,
     rankLimits: [],
     star: 5,
