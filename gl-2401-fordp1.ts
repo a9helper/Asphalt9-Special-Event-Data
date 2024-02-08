@@ -108,6 +108,7 @@ const template: SED = {
     { conditions: 425, reword: { type: 'sePart', count: 1 } },
   ],
   notes: [
+    "更新：修复了阶段 10 Spano 的条件。",
     '阶段 1 可获得 004C Phonk 贴纸 1 份。',
     '阶段 15 使用 5 星小自燃，可获得小自燃钥匙 1 份。',
     '阶段 17 使用 6 星风之子，可获得风之子钥匙 1 份。',
@@ -560,7 +561,7 @@ const template: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'spano', freeTry: true }],
+          toolCars: [{ car_id: 'spano', freeTry: false }],
           rewords: [
             { type: 'credit', count: 300000 },
           ],
@@ -582,7 +583,7 @@ const template: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'spano', freeTry: true }],
+          toolCars: [{ car_id: 'spano', freeTry: false }],
           rewords: [
             { type: 'token', count: 20 },
             { type: 'seCard', count: 2 },
@@ -594,7 +595,7 @@ const template: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'spano', freeTry: true }],
+          toolCars: [{ car_id: 'spano', freeTry: false }],
           rewords: [
             { type: 'seasonToken', count: 900 },
             { type: 'seCard', count: 2 },
