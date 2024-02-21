@@ -505,7 +505,7 @@ const template: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'citroengt', freeTry: true }],
+          toolCars: [{ car_id: 'citroengt', freeTry: false }],
           rewords: [
             { type: 'credit', count: 300000 },
           ],
@@ -527,7 +527,7 @@ const template: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'citroengt', freeTry: true }],
+          toolCars: [{ car_id: 'citroengt', freeTry: false }],
           rewords: [
             { type: 'token', count: 20 },
             { type: 'seCard', count: 2 },
@@ -539,7 +539,7 @@ const template: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'citroengt', freeTry: true }],
+          toolCars: [{ car_id: 'citroengt', freeTry: false }],
           rewords: [
             { type: 'seasonToken', count: 900 },
             { type: 'seCard', count: 2 },
