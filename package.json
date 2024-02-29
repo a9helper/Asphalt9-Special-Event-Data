@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "table": "deno run --allow-write table.ts"
+  }
+}
