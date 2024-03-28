@@ -608,7 +608,7 @@
     star: 5,
   },
   {
-    car_id: 'arutra',
+    car_id: 'artura',
     fullName: 'McLaren Artura',
     nickName: 'Artura',
     isKeyCar: false,
