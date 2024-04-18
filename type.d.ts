@@ -48,12 +48,12 @@ interface stage extends UUID {
 }
 
 export interface SED {
-  havePack: Boolean
-  haveClubRewords: Boolean
-  haveSkin: Boolean
-  havePackConditions: Boolean
-  haveEventKey: Boolean
-  packConditions: Number
+  havePack: boolean
+  haveClubRewords: boolean
+  haveSkin: boolean
+  havePackConditions: boolean
+  haveEventKey: boolean
+  packConditions: number
   dataTableImage?: string
   toolCars: SEToolCar[]
   notes: string[]
