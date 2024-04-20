@@ -24,9 +24,9 @@ export const masteryEvent:MasteryEvent = {
       rewardBP: 60,
     },
     {
-      car_id: '300+',
-      fullName: 'Bugatti Chiron Super Sport 300+',
-      shortName: 'Chiron 300+',
+      car_id: 'chiron300',
+      fullName: 'Bugatti Chiron Super Sport 300+🔑',
+      shortName: 'Chiron 300+🔑',
       isKeyCar: true,
       star: 6,
       rank: 5602,
@@ -76,7 +76,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: '004c',
       fullName: 'Glickenhaus 004C🔑',
-      shortName: '004C',
+      shortName: '004C🔑',
       isKeyCar: true,
       star: 5,
       rank: 2840,
@@ -95,7 +95,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'continental',
       fullName: 'Bentley Continental GT3🔑',
-      shortName: 'Continental GT3',
+      shortName: 'Continental GT3🔑',
       isKeyCar: true,
       star: 5,
       rank: 2781,
@@ -135,7 +135,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'nsxgt3',
       fullName: 'Acura NSX GT3 EVO🔑',
-      shortName: 'NSX GT3',
+      shortName: 'NSX GT3🔑',
       isKeyCar: true,
       star: 5,
       rank: 3585,
@@ -185,7 +185,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'zondar',
       fullName: 'Pagani Zonda R🔑',
-      shortName: 'Zonda R',
+      shortName: 'Zonda R🔑',
       isKeyCar: true,
       star: 6,
       rank: 4164,
@@ -215,7 +215,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: '410',
       fullName: 'Lotus Evora Sport 410',
-      shortName: '',
+      shortName: 'Lotus 410',
       isKeyCar: false,
       star: 3,
       rank: 2123,
@@ -255,7 +255,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'mbbs',
       fullName: 'Mercedes-Benz Mercedes-AMG GT Black Series🔑',
-      shortName: 'AMG GT BS',
+      shortName: 'AMG GT BS🔑',
       isKeyCar: true,
       star: 6,
       rank: 3517,
@@ -265,7 +265,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'sc18',
       fullName: 'Lamborghini SC18🔑',
-      shortName: 'SC18',
+      shortName: 'SC18🔑',
       isKeyCar: true,
       star: 6,
       rank: 4079,
@@ -295,7 +295,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'ares',
       fullName: 'Ares S1🔑',
-      shortName: 'Ares S1',
+      shortName: 'Ares S1🔑',
       isKeyCar: true,
       star: 5,
       rank: 3377,
@@ -315,7 +315,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'mk2',
       fullName: 'Ford GT MKII🔑',
-      shortName: 'MKII',
+      shortName: 'MKII🔑',
       isKeyCar: true,
       star: 4,
       rank: 3198,
@@ -345,7 +345,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'scv12',
       fullName: 'Lamborghini Essenza SCV12🔑',
-      shortName: 'SCV12',
+      shortName: 'SCV12🔑',
       isKeyCar: true,
       star: 5,
       rank: 4036,
@@ -365,7 +365,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'mclarengt',
       fullName: 'McLaren GT🔑',
-      shortName: 'McLaren GT',
+      shortName: 'McLaren GT🔑',
       isKeyCar: true,
       star: 5,
       rank: 3432,
@@ -525,7 +525,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'reventon',
       fullName: 'Lamborghini Reventon Roadster🔑',
-      shortName: 'Reventon',
+      shortName: 'Reventon🔑',
       isKeyCar: true,
       star: 6,
       rank: 3983,
@@ -545,7 +545,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'solus',
       fullName: 'Mclaren Solus GT🔑',
-      shortName: 'Solus GT',
+      shortName: 'Solus GT🔑',
       isKeyCar: true,
       star: 6,
       rank: 4075,
@@ -575,7 +575,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'huracanste',
       fullName: 'Lamborghini Huracan Super Trofeo Evo🔑',
-      shortName: 'Huracan STE',
+      shortName: 'Huracan STE🔑',
       isKeyCar: true,
       star: 5,
       rank: 3256,
@@ -605,7 +605,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'r390',
       fullName: 'Nissan R390 GT1🔑',
-      shortName: 'R390 GT1',
+      shortName: 'R390 GT1🔑',
       isKeyCar: true,
       star: 6,
       rank: 3627,
@@ -615,7 +615,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: '007s',
       fullName: 'Glickenhaus 007S🔑',
-      shortName: '007S',
+      shortName: '007S🔑',
       isKeyCar: true,
       star: 6,
       rank: 4192,
@@ -685,7 +685,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'c7r',
       fullName: 'Chevrolet Corvette C7.R🔑',
-      shortName: 'C7.R',
+      shortName: 'C7.R🔑',
       isKeyCar: true,
       star: 5,
       rank: 2836,
@@ -715,7 +715,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'centodieci',
       fullName: 'Bugatti Centodieci🔑',
-      shortName: 'Centodieci',
+      shortName: 'Centodieci🔑',
       isKeyCar: true,
       star: 6,
       rank: 4843,
@@ -725,7 +725,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'rrturbo',
       fullName: 'ATS Automobili Corsa RRTurbo🔑',
-      shortName: 'Corsa RRTurbo',
+      shortName: 'Corsa RRTurbo🔑',
       isKeyCar: true,
       star: 4,
       rank: 3389,
@@ -745,7 +745,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: '488gtbevo',
       fullName: 'Ferrari 488 GTB Challenge EVO🔑',
-      shortName: '488 Challenge',
+      shortName: '488 Challenge🔑',
       isKeyCar: true,
       star: 6,
       rank: 4095,
@@ -755,7 +755,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'ccxr',
       fullName: 'Koenigsegg CCXR🔑',
-      shortName: 'CCXR',
+      shortName: 'CCXR🔑',
       isKeyCar: true,
       star: 6,
       rank: 4998,
@@ -795,7 +795,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'xj220',
       fullName: 'Jaguar XJ220 TWR🔑',
-      shortName: 'XJ220',
+      shortName: 'XJ220🔑',
       isKeyCar: true,
       star: 6,
       rank: 4175,
@@ -805,7 +805,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'c2',
       fullName: 'Rimac Nevera🔑',
-      shortName: 'Nevera',
+      shortName: 'Nevera🔑',
       isKeyCar: true,
       star: 6,
       rank: 4897,
@@ -815,7 +815,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'gemera',
       fullName: 'Koenigsegg Gemera🔑',
-      shortName: 'Gemera',
+      shortName: 'Gemera🔑',
       isKeyCar: true,
       star: 6,
       rank: 5092,
@@ -826,7 +826,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'lvn',
       fullName: 'Bugatti LA Voiture Noire🔑',
-      shortName: 'LVN',
+      shortName: 'LVN🔑',
       isKeyCar: true,
       star: 6,
       rank: 5055,
@@ -836,7 +836,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'jesko',
       fullName: 'Koenigsegg Jesko🔑',
-      shortName: 'Jesko',
+      shortName: 'Jesko🔑',
       isKeyCar: true,
       star: 6,
       rank: 4824,
@@ -846,7 +846,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'cc850',
       fullName: 'Koenigsegg CC850🔑',
-      shortName: 'CC850',
+      shortName: 'CC850🔑',
       isKeyCar: true,
       star: 6,
       rank: 5146,
@@ -886,7 +886,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: '911gt2',
       fullName: 'Porsche 911 GT2 RS ClubSport🔑',
-      shortName: '911 GT2',
+      shortName: '911 GT2🔑',
       isKeyCar: true,
       star: 6,
       rank: 4289,
@@ -906,7 +906,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'ultimars',
       fullName: 'Ultima RS🔑',
-      shortName: 'Ultima RS',
+      shortName: 'Ultima RS🔑',
       isKeyCar: true,
       star: 6,
       rank: 4650,
@@ -926,7 +926,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'vwer',
       fullName: 'Volkswagen Electric R🔑',
-      shortName: 'Electric R',
+      shortName: 'Electric R🔑',
       isKeyCar: true,
       star: 5,
       rank: 3062,
@@ -1006,7 +1006,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'lpi800',
       fullName: 'Lamborghini Countach LPI 800-4🔑',
-      shortName: 'LPI 800-4',
+      shortName: 'LPI 800-4🔑',
       isKeyCar: true,
       star: 6,
       rank: 4571,
@@ -1016,7 +1016,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'bt62',
       fullName: 'Brabham BT62🔑',
-      shortName: 'BT62',
+      shortName: 'BT62🔑',
       isKeyCar: true,
       star: 5,
       rank: 3489,
@@ -1045,8 +1045,8 @@ export const masteryEvent:MasteryEvent = {
     },
     {
       car_id: 'mc12',
-      fullName: 'Maserati MC12',
-      shortName: 'MC12',
+      fullName: 'Maserati MC12🔑',
+      shortName: 'MC12🔑',
       isKeyCar: true,
       star: 5,
       rank: 3100,
@@ -1096,7 +1096,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'w12',
       fullName: 'Volkswagen W12 Coupe🔑',
-      shortName: 'W12',
+      shortName: 'W12🔑',
       isKeyCar: true,
       star: 6,
       rank: 4334,
@@ -1146,7 +1146,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'af8',
       fullName: 'Arash AF8 Falcon Edition🔑',
-      shortName: 'AF8',
+      shortName: 'AF8🔑',
       isKeyCar: true,
       star: 5,
       rank: 3289,
@@ -1216,7 +1216,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'at96',
       fullName: 'TechRules AT96 Track Version🔑',
-      shortName: 'AT96',
+      shortName: 'AT96🔑',
       isKeyCar: true,
       star: 6,
       rank: 4020,
@@ -1226,7 +1226,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: 'miura',
       fullName: 'Lamborghini Miura Concept🔑',
-      shortName: 'Miura',
+      shortName: 'Miura🔑',
       isKeyCar: true,
       star: 5,
       rank: 3688,
@@ -1246,7 +1246,7 @@ export const masteryEvent:MasteryEvent = {
     {
       car_id: '718gt4',
       fullName: 'Porsche 718 Cayman GT4 ClubSport🔑',
-      shortName: '718 GT4',
+      shortName: '718 GT4🔑',
       isKeyCar: true,
       star: 5,
       rank: 3415,
@@ -2031,7 +2031,7 @@ export const masteryEvent:MasteryEvent = {
           ]
         },
         {
-          toolCarId:'terzo',
+          toolCarId:'911gt2',
           rankList:[
             6000, 6000, 6000, 6000, 6000,
             6000, 6000, 6000, 6000
@@ -2431,6 +2431,57 @@ export const masteryEvent:MasteryEvent = {
           rankList:[
             3938, 4128, 4326, 4479, 4533,
             4668, 4782, 4890, 4998
+          ]
+        },
+      ]
+    },
+    {
+      targetCarId:'chiron300',
+      unlockConditions:800,
+      processRewards:[
+
+      ],
+      missions:[
+        {
+          toolCarId:'c2',
+          rankList:[
+            6000, 6000, 6000, 6000, 6000,
+            6000, 6000, 6000, 6000
+          ]
+        },
+        {
+          toolCarId:'gemera',
+          rankList:[
+            6000, 6000, 6000, 6000, 6000,
+            6000, 6000, 6000, 6000
+          ]
+        },
+        {
+          toolCarId:'lvn',
+          rankList:[
+            6000, 6000, 6000, 6000, 6000,
+            6000, 6000, 6000, 6000
+          ]
+        },
+        {
+          toolCarId:'jesko',
+          rankList:[
+            6000, 6000, 6000, 6000, 6000,
+            6000, 6000, 6000, 6000
+          ]
+        },
+        {
+          toolCarId:'cc850',
+          rankList:[
+            6000, 6000, 6000, 6000, 6000,
+            6000, 6000, 6000, 6000
+          ]
+        },
+        {
+          toolCarId:'venomf5',
+          rankList:[
+            6000, 6000, 6000, 6000, 6000,
+            6000, 6000, 6000, 6000
           ]
         },
       ]
