@@ -15,7 +15,7 @@ interface ProcessReward {
   rewards: reward[]
 }
 interface reward {
-  type: 'bp' | 'bpFromKey'
+  type: 'bp' | 'bpFromKey' | 'ultimateBP'
   // type: 'seCard' | 'seKey' | 'token' | 'sePack' | 'sePart' | 'credit' | 'seSkin' | 'seasonToken'
   count: number
 }
