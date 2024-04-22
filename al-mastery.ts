@@ -2,6 +2,7 @@ import { MasteryEvent } from "./al.mastery.d.ts";
 
 export const masteryEvent:MasteryEvent = {
   notes:[
+    "更新：修改了CCXR工具车不是霓虹GTR的问题。",
     "当前数据不完整，详细数据等版本更新后同步，如遇到 6000 性能分不必惊慌，可粗略估计如下：",
     "金车选6000，半金少选1，满星无金卡少选2，低星几星就选几，高星可适当加几个。低级车满星无金卡可少选1。",
     "当前所有进度总和为 913，如何获得 967 进度宝箱以及 800 进度后会有什么新任务，还请拭目以待。"
@@ -537,13 +538,13 @@ export const masteryEvent:MasteryEvent = {
       rewardBP: 28,
     },
     {
-      car_id: 'lykanneon',
-      fullName: 'W Motors Lykan HyperSoprt Neon Edition',
-      shortName: 'Lykan Neon',
+      car_id: 'gtrneon',
+      fullName: 'Nissan GT-R Neon Edition',
+      shortName: '霓虹GTR',
       isKeyCar: false,
       star: 6,
-      rank: 4636,
-      carClass: 'S',
+      rank: 4201,
+      carClass: 'A',
       rewardBP: 40,
     },
     {
@@ -1344,19 +1345,19 @@ export const masteryEvent:MasteryEvent = {
         {
           toolCarId:'z4',
           rankList:[
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'lt',
           rankList:[
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'370',
           rankList:[
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -1381,7 +1382,7 @@ export const masteryEvent:MasteryEvent = {
         {
           toolCarId:'hommage',
           rankList:[
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
@@ -1905,7 +1906,7 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'zr1',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
@@ -1952,7 +1953,7 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'mc12',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
@@ -2026,7 +2027,7 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'488gtbevo',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
@@ -2040,14 +2041,14 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'w12',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'911gt2',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2075,7 +2076,7 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'citroengt',
           rankList:[
             3066, 3253, 3425, 3624, 3656,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
@@ -2096,14 +2097,14 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'akylone',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'terzo',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2138,28 +2139,28 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'avj',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'sc18',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'aperta',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'imola',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2175,35 +2176,35 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'valhalla',
           rankList:[
             2657, 2909, 3136, 3426, 3458,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'bc',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'revuelto',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
-          toolCarId:'lykanneon',
+          toolCarId:'gtrneon',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'xj220',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2238,28 +2239,28 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'huayrar',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'c1',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'zondar',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'cs',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2275,35 +2276,35 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'apolloevo',
           rankList:[
             2557, 2830, 3111, 3493, 3812,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'at96',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'650s',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'senna',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'regera',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2319,28 +2320,28 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'sesto',
           rankList:[
             2295, 2605, 2917, 3344, 3697,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'lpi800',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'speedtail',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'fordp1',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
@@ -2363,35 +2364,35 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'xjr',
           rankList:[
             3422, 3599, 3771, 3969, 3998,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'drakuma',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'ts900',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'1789',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'ff01',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2419,35 +2420,35 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'007s',
           rankList:[
             2859, 3101, 3324, 3584, 3615,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'vanda',
           rankList:[
             2481, 2771, 3079, 3312, 3395,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'ts1',
           rankList:[
             3258, 3482, 3719, 3902, 3966,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'sf90',
           rankList:[
             3139, 3388, 3653, 3855, 3927,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
         {
           toolCarId:'centodieci',
           rankList:[
             3808, 3989, 4185, 4336, 4388,
-            5996, 5997, 5996, 6000
+            5996, 5997, 5998, 6000
           ]
         },
       ]
@@ -2518,42 +2519,42 @@ export const masteryEvent:MasteryEvent = {
     //       toolCarId:'c2',
     //       rankList:[
     //         5991, 5992, 5993, 5994, 5995,
-    //         5996, 5997, 5996, 6000
+    //         5996, 5997, 5998, 6000
     //       ]
     //     },
     //     {
     //       toolCarId:'gemera',
     //       rankList:[
     //         5991, 5992, 5993, 5994, 5995,
-    //         5996, 5997, 5996, 6000
+    //         5996, 5997, 5998, 6000
     //       ]
     //     },
     //     {
     //       toolCarId:'lvn',
     //       rankList:[
     //         5991, 5992, 5993, 5994, 5995,
-    //         5996, 5997, 5996, 6000
+    //         5996, 5997, 5998, 6000
     //       ]
     //     },
     //     {
     //       toolCarId:'jesko',
     //       rankList:[
     //         5991, 5992, 5993, 5994, 5995,
-    //         5996, 5997, 5996, 6000
+    //         5996, 5997, 5998, 6000
     //       ]
     //     },
     //     {
     //       toolCarId:'cc850',
     //       rankList:[
     //         5991, 5992, 5993, 5994, 5995,
-    //         5996, 5997, 5996, 6000
+    //         5996, 5997, 5998, 6000
     //       ]
     //     },
     //     {
     //       toolCarId:'venomf5',
     //       rankList:[
     //         5991, 5992, 5993, 5994, 5995,
-    //         5996, 5997, 5996, 6000
+    //         5996, 5997, 5998, 6000
     //       ]
     //     },
     //   ]
