@@ -2,6 +2,7 @@ import { MasteryEvent } from "./al.mastery.d.ts";
 
 export const masteryEvent:MasteryEvent = {
   notes:[
+    "更新：修改了9x8工具车不是Onyx的问题。",
     "更新：完善了CC850（除白龙外）的工具车性能分要求。",
     "更新：修改了CCXR工具车不是霓虹GTR的问题。",
     "当前数据不完整，详细数据等版本更新后同步，如遇到 6000 性能分不必惊慌，可粗略估计如下：",
@@ -1049,16 +1050,16 @@ export const masteryEvent:MasteryEvent = {
       carClass: 'S',
       rewardBP: 40,
     },
-    {
-      car_id: 'mc12',
-      fullName: 'Maserati MC12🔑',
-      shortName: 'MC12🔑',
-      isKeyCar: true,
-      star: 5,
-      rank: 3100,
-      carClass: 'C',
-      rewardBP: 30,
-    },
+  {
+    car_id: 'onyx',
+    fullName: 'Peugeot Onyx',
+    shortName: 'Onyx',
+    isKeyCar: false,
+    star: 6,
+    rank: 4026,
+    carClass: 'A',
+    rewardBP: 33,
+  },
     {
       car_id: 'eb110',
       fullName: 'Bugatti EB110🔑',
@@ -1951,7 +1952,7 @@ export const masteryEvent:MasteryEvent = {
           ]
         },
         {
-          toolCarId:'mc12',
+          toolCarId:'onyx',
           rankList:[
             5991, 5992, 5993, 5994, 5995,
             5996, 5997, 5998, 6000
