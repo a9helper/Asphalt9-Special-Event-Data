@@ -1,4 +1,4 @@
-import data from './al-2404-concept_s.ts'
+import data from './al-2405-spano.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
 let conditionsCount = 0
