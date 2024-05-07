@@ -2428,7 +2428,7 @@ export const masteryEvent:MasteryEvent = {
           toolCarId:'vanda',
           rankList:[
             2481, 2771, 3079, 3312, 3395,
-            3956, 3792, 3958, 4124
+            3596, 3792, 3958, 4124
           ]
         },
         {
