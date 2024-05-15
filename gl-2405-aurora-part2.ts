@@ -13,7 +13,7 @@ const template: SED = {
       fullName: 'De Tomaso P900',
       nickName: 'P900',
       isKeyCar: false,
-      rankLimits: [],
+      rankLimits: [3548],
       star: 5,
     },
     {
@@ -21,7 +21,7 @@ const template: SED = {
       fullName: 'Aston Martin DBS GT Zagato',
       nickName: 'Zagato',
       isKeyCar: false,
-      rankLimits: [],
+      rankLimits: [3845],
       star: 6,
     },
     {
@@ -29,7 +29,7 @@ const template: SED = {
       fullName: 'Rimac Concept S',
       nickName: 'CS',
       isKeyCar: false,
-      rankLimits: [],
+      rankLimits: [4312],
       star: 6,
     },
     {
@@ -37,7 +37,7 @@ const template: SED = {
       fullName: 'Bugatti Divo',
       nickName: 'Divo',
       isKeyCar: false,
-      rankLimits: [],
+      rankLimits: [4605],
       star: 6,
     },
 
@@ -112,30 +112,30 @@ const template: SED = {
           ],
         },
         {
-          conditions: 5,
+          conditions: 2,
           join: {
             star: 2,
             rank: 0,
           },
           toolCars: [{ car_id: 'p900', freeTry: false }],
           rewords: [
-            { type: 'credit', count: 175000 },
+            { type: 'token', count: 20 },
           ],
         },
         {
-          conditions: 8,
+          conditions: 6,
           join: {
             star: 3,
             rank: 0,
           },
           toolCars: [{ car_id: 'p900', freeTry: false }],
           rewords: [
-            { type: 'seCard', count: 3 },
-            { type: 'token', count: 75 },
+            { type: 'credit', count: 300000 },
+            { type: 'seCard', count: 2 },
           ],
         },
         {
-          conditions: 8,
+          conditions: 6,
           join: {
             star: 4,
             rank: 0,
@@ -143,7 +143,7 @@ const template: SED = {
           toolCars: [{ car_id: 'p900', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 3 },
-            { type: 'token', count: 75 },
+            { type: 'token', count: 105 },
           ],
         },
       ],
@@ -157,37 +157,63 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 15,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'c1', freeTry: false }],
+          toolCars: [{ car_id: 'zagato', freeTry: true }],
           rewords: [
+            { type: 'credit', count: 40000 },
+            { type: 'seCard', count: 1 },
             
+          ],
+        },
+        {
+          conditions: 2,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'zagato', freeTry: true }],
+          rewords: [
+            { type: 'token', count: 20 },
           ],
         },
         {
           conditions: 5,
           join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'c1', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 225000 },
-          ],
-        },
-        {
-          conditions: 7,
-          join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'c1', freeTry: false }],
+          toolCars: [{ car_id: 'zagato', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 100 },
+            { type: 'credit', count: 300000 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+        {
+          conditions: 5,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'zagato', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'token', count: 105 },
+          ],
+        },
+        {
+          conditions: 6,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'zagato', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'credit', count: 700000 },
           ],
         },
       ],
@@ -200,38 +226,63 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 15,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'naran', freeTry: false }],
+          toolCars: [{ car_id: 'cs', freeTry: true }],
           rewords: [
+            { type: 'credit', count: 40000 },
+            { type: 'seCard', count: 1 },
             
+          ],
+        },
+        {
+          conditions: 2,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'cs', freeTry: true }],
+          rewords: [
+            { type: 'token', count: 20 },
           ],
         },
         {
           conditions: 5,
           join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'naran', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 300000 },
-          ],
-        },
-        {
-          conditions: 12,
-          join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'naran', freeTry: false }],
+          toolCars: [{ car_id: 'cs', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 125 },
-            { type: 'credit', count: 125000 },
+            { type: 'credit', count: 300000 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+        {
+          conditions: 5,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'cs', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'token', count: 105 },
+          ],
+        },
+        {
+          conditions: 7,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'cs', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 3 },
+            { type: 'credit', count: 700000 },
           ],
         },
       ],
@@ -244,38 +295,63 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 15,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'vantage', freeTry: true }],
+          toolCars: [{ car_id: 'divo', freeTry: true }],
           rewords: [
+            { type: 'credit', count: 40000 },
+            { type: 'seCard', count: 1 },
             
           ],
         },
         {
-          conditions: 8,
+          conditions: 2,
           join: {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'vantage', freeTry: true }],
+          toolCars: [{ car_id: 'divo', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 325000 },
-            { type: 'token', count: 30 },
+            { type: 'token', count: 20 },
+          ],
+        },
+        {
+          conditions: 5,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'divo', freeTry: true }],
+          rewords: [
+            { type: 'credit', count: 300000 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+        {
+          conditions: 5,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'divo', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'token', count: 105 },
           ],
         },
         {
           conditions: 6,
           join: {
-            star: 3,
+            star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'vantage', freeTry: true }],
+          toolCars: [{ car_id: 'divo', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 120 },
+            { type: 'seCard', count: 2 },
+            { type: 'credit', count: 700000 },
           ],
         },
       ],
@@ -288,16 +364,15 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 21,
+          conditions: 18,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [{ car_id: 'tur', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 250000 },
-            { type: 'token', count: 150 },
-            { type: 'seCard', count: 1 },
+            { type: 'credit', count: 320000 },
+            { type: 'token', count: 180 },
           ],
         },
       ],
@@ -310,51 +385,17 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 23,
           join: {
             star: 1,
-            rank: 0,
+            rank: 3548,
           },
-          toolCars: [{ car_id: 'vantage', freeTry: true }],
+          toolCars: [{ car_id: 'p900', freeTry: false }],
           rewords: [
-            
-          ],
-        },
-        {
-          conditions: 4,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'vantage', freeTry: true }],
-          rewords: [
-            { type: 'token', count: 60 },
-          ],
-        },
-        {
-          conditions: 12,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'vantage', freeTry: true }],
-          rewords: [
-            { type: 'credit', count: 325000 },
-            { type: 'token', count: 175 },
-            { type: 'seCard', count: 2 },
-          ],
-        },
-        {
-          conditions: 4,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'vantage', freeTry: true }],
-          rewords: [
-            { type: 'seCard', count: 6 },
+            { type: 'credit', count: 800000 },
+            { type: 'token', count: 150 },
+            { type: 'seCard', count: 5 },
             { type: 'sePart', count: 1 },
-
           ],
         },
       ],
@@ -367,50 +408,17 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 20,
           join: {
             star: 1,
-            rank: 0,
+            rank: 3845,
           },
-          toolCars: [{ car_id: 'evija', freeTry: false }],
+          toolCars: [{ car_id: 'zagato', freeTry: true }],
           rewords: [
-            
-          ],
-        },
-        {
-          conditions: 5,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'evija', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 375000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'evija', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 1 },
-            { type: 'token', count: 225 },
-
-          ],
-        },
-        {
-          conditions: 2,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'evija', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-
+            { type: 'credit', count: 900000 },
+            { type: 'token', count: 150 },
+            { type: 'seCard', count: 3 },
+            { type: 'sePart', count: 1 },
           ],
         },
       ],
@@ -424,50 +432,17 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 21,
           join: {
             star: 1,
-            rank: 0,
+            rank: 4312,
           },
-          toolCars: [{ car_id: 'c1', freeTry: false }],
+          toolCars: [{ car_id: 'cs', freeTry: true }],
           rewords: [
-            
-          ],
-        },
-        {
-          conditions: 5,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'c1', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 425000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'c1', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 1 },
-            { type: 'token', count: 275 },
-
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'c1', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 3 },
-
+            { type: 'credit', count: 900000 },
+            { type: 'token', count: 150 },
+            { type: 'seCard', count: 4 },
+            { type: 'sePart', count: 1 },
           ],
         },
       ],
@@ -481,52 +456,17 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 20,
           join: {
             star: 1,
-            rank: 0,
+            rank: 4605,
           },
-          toolCars: [{ car_id: 'naran', freeTry: false }],
+          toolCars: [{ car_id: 'divo', freeTry: true }],
           rewords: [
-            
-          ],
-        },
-        {
-          conditions: 10,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'naran', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 175000 },
-            { type: 'token', count: 325 },
-          ],
-        },
-        {
-          conditions: 7,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'naran', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-            { type: 'credit', count: 500000 },
-
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'naran', freeTry: false }],
-          rewords: [
-            { type: 'seCard', count: 4 },
+            { type: 'credit', count: 900000 },
+            { type: 'token', count: 150 },
+            { type: 'seCard', count: 3 },
             { type: 'sePart', count: 1 },
-
           ],
         },
       ],
@@ -540,13 +480,14 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 10,
+          conditions: 13,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [{ car_id: 'tur', freeTry: true }],
           rewords: [
+            { type: 'credit', count: 180000 },
             
           ],
         },
@@ -558,27 +499,38 @@ const template: SED = {
           },
           toolCars: [{ car_id: 'tur', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 150000 },
-            
-          ],
-        },
-        {
-          conditions: 8,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'tur', freeTry: true }],
-          rewords: [
-            { type: 'credit', count: 255000 },
-            { type: 'token', count: 75 },
+            { type: 'token', count: 300 },
             
           ],
         },
         {
           conditions: 3,
           join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'tur', freeTry: true }],
+          rewords: [
+            { type: 'credit', count: 240000 },
+            
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
             star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'tur', freeTry: true }],
+          rewords: [
+            { type: 'token', count: 500 },
+            
+          ],
+        },
+        {
+          conditions: 3,
+          join: {
+            star: 5,
             rank: 0,
           },
           toolCars: [{ car_id: 'tur', freeTry: true }],
@@ -588,28 +540,16 @@ const template: SED = {
           ],
         },
         {
-          conditions: 8,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'tur', freeTry: true }],
-          rewords: [
-            { type: 'credit', count: 450000 },
-            { type: 'token', count: 225 },
-            
-          ],
-        },
-        {
-          conditions: 7,
+          conditions: 11,
           join: {
             star: 6,
             rank: 0,
           },
           toolCars: [{ car_id: 'tur', freeTry: true }],
           rewords: [
-            { type: 'sePart', count: 2 },
-            { type: 'token', count: 375 },
+            { type: 'sePart', count: 3 },
+            { type: 'token', count: 750 },
+            { type: 'credit', count: 600000 },
             
           ],
         },
