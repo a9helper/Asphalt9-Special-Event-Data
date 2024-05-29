@@ -41,7 +41,7 @@ const template: SED = {
     { conditions: 380, reword: { type: 'seCard', count: 1 } },
   ],
   notes: [
-    "你需要 6 星的 ATS GT 来获得 ATS GT 图纸包。"
+    "更新：原先需要 6 星 SC20 的一张金卡已改成需要 6 星 ATSGT 。"
     
   ],
   stages: [
@@ -302,7 +302,7 @@ const template: SED = {
         {
           conditions: 6,
           join: {
-            star: 4,
+            star: 5,
             rank: 0,
           },
           toolCars: [{ car_id: 'atsgt', freeTry: false }],
@@ -315,7 +315,7 @@ const template: SED = {
         {
           conditions: 5,
           join: {
-            star: 4,
+            star: 5,
             rank: 0,
           },
           toolCars: [{ car_id: 'apolloevo', freeTry: false }],
@@ -347,27 +347,27 @@ const template: SED = {
           ],
         },
         {
-          conditions: 4,
+          conditions: 14,
           join: {
             star: 6,
             rank: 0,
           },
           toolCars: [{ car_id: 'atsgt', freeTry: false }],
           rewords: [
-            {type:'sePack', count: 3 },
-            {type:'sePart', count: 1 },
+            {type:'sePack', count: 12 },
+            {type:'sePart', count: 2 },
 
           ],
         },
         {
-          conditions: 3,
+          conditions: 2,
           join: {
             star: 6,
             rank: 0,
           },
           toolCars: [{ car_id: 'sc20', freeTry: true }],
           rewords: [
-            {type:'sePart', count: 2 },
+            {type:'sePart', count: 1 },
 
           ],
         },
