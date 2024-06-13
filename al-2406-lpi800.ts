@@ -77,7 +77,7 @@ const specialEventData: SED = {
     },
   ],
   notes: [
-    "钥匙工具车竟然没有试驾！"
+    "勉为其难提供了部分阶段的试驾！"
   ],
   processRewords: [
     
@@ -123,7 +123,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'diablo', freeTry: false }],
+          toolCars: [{ car_id: 'diablo', freeTry: true }],
           rewords: [
             { type: 'credit', count: 60000 },
             { type: 'token', count: 70 },
@@ -168,7 +168,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sc18', freeTry: false }],
+          toolCars: [{ car_id: 'sc18', freeTry: true }],
           rewords: [
             { type: 'credit', count: 60000 },
             { type: 'token', count: 100 },
@@ -259,7 +259,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sc18', freeTry: false }],
+          toolCars: [{ car_id: 'sc18', freeTry: true }],
           rewords: [
             { type: 'credit', count: 60000 },
             { type: 'token', count: 100 },
@@ -391,7 +391,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sc20', freeTry: false }],
+          toolCars: [{ car_id: 'sc20', freeTry: true }],
           rewords: [
             { type: 'credit', count: 150000 },
           ],
@@ -402,7 +402,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sc20', freeTry: false }],
+          toolCars: [{ car_id: 'sc20', freeTry: true }],
           rewords: [
             { type: 'token', count: 150 },
             { type: 'seCard', count: 2 },
@@ -414,7 +414,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sc20', freeTry: false }],
+          toolCars: [{ car_id: 'sc20', freeTry: true }],
           rewords: [
             
           ],
@@ -425,7 +425,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sc20', freeTry: false }],
+          toolCars: [{ car_id: 'sc20', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 5 },
           ],
@@ -436,7 +436,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sc20', freeTry: false }],
+          toolCars: [{ car_id: 'sc20', freeTry: true }],
           rewords: [
             { type: 'sePart', count: 1 },
           ],
@@ -458,7 +458,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sian', freeTry: false }],
+          toolCars: [{ car_id: 'sian', freeTry: true }],
           rewords: [
             { type: 'credit', count: 150000 },
           ],
@@ -469,7 +469,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sian', freeTry: false }],
+          toolCars: [{ car_id: 'sian', freeTry: true }],
           rewords: [
             { type: 'token', count: 180 },
             { type: 'seCard', count: 2 },
@@ -481,7 +481,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sian', freeTry: false }],
+          toolCars: [{ car_id: 'sian', freeTry: true }],
           rewords: [
             
           ],
@@ -492,7 +492,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sian', freeTry: false }],
+          toolCars: [{ car_id: 'sian', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 5 },
             { type: 'token', count: 225 },
@@ -504,7 +504,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sian', freeTry: false }],
+          toolCars: [{ car_id: 'sian', freeTry: true }],
           rewords: [
             { type: 'sePart', count: 1 },
           ],
