@@ -60,8 +60,9 @@ const specialEventData: SED = {
     },
   ],
   notes: [
-    "氪佬注意，阶段 13 也有图纸！",
-    "显而易见，本次提车最低条件为：Solus 钥匙、SP3 钥匙、650S 解锁、【 3 星 me412 + 6 星 F8 】或【 4 星 ME412 + 5 星 F8 】。"
+    "重制：降低了进度中钥匙获取所需条件，现在最低提车条件为解锁 650S 即可。",
+    "调整了进度奖励，增加投放了进度和关卡中的图纸和金卡数量。",
+    "现在，你可以在相关关卡中试驾 SP3 和 Solus 了。",
   ],
   processRewords: [
     { conditions: 20, reword: { type: 'seCard', count: 1 } },
@@ -69,12 +70,13 @@ const specialEventData: SED = {
     { conditions: 60, reword: { type: 'token', count: 30 } },
     { conditions: 110, reword: { type: 'credit', count: 30000 } },
     { conditions: 130, reword: { type: 'token', count: 70 } },
-    { conditions: 160, reword: { type: 'seCard', count: 1 } },
-    { conditions: 185, reword: { type: 'credit', count: 50000 } },
-    { conditions: 220, reword: { type: 'token', count: 100 } },
-    { conditions: 235, reword: { type: 'sePart', count: 1 } },
-    { conditions: 255, reword: { type: 'seSkin', count: 1 } },
-    { conditions: 280, reword: { type: 'seKey', count: 1 } },
+    { conditions: 160, reword: { type: 'seCard', count: 3 } },
+    { conditions: 185, reword: { type: 'sePart', count: 1 } },
+    { conditions: 205, reword: { type: 'seCard', count: 5 } },
+    { conditions: 220, reword: { type: 'seKey', count: 1 } },
+    { conditions: 235, reword: { type: 'seCard', count: 6 } },
+    { conditions: 255, reword: { type: 'sePart', count: 3 } },
+    { conditions: 280, reword: { type: 'seSkin', count: 1 } },
 
 
   ],
@@ -252,7 +254,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'solus', freeTry: false }],
+          toolCars: [{ car_id: 'solus', freeTry: true }],
           rewords: [
             { type: 'credit', count: 270000 },
             { type: 'token', count: 200 },
@@ -275,7 +277,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'daytonasp3', freeTry: false }],
+          toolCars: [{ car_id: 'daytonasp3', freeTry: true }],
           rewords: [
             { type: 'credit', count: 270000 },
             { type: 'token', count: 200 },
@@ -302,7 +304,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'credit', count: 300000 },
             { type: 'token', count: 300 },
-            { type: 'seCard', count: 9 },
+            { type: 'seCard', count: 12 },
           ],
         },
       ],
@@ -346,7 +348,7 @@ const specialEventData: SED = {
           },
           toolCars: [{ car_id: 'me412', freeTry: false }],
           rewords: [
-            { type: 'seCard', count: 9 },
+            { type: 'seCard', count: 12 },
           ],
         },
         {
@@ -390,7 +392,7 @@ const specialEventData: SED = {
           },
           toolCars: [{ car_id: 'f8', freeTry: false }],
           rewords: [
-            { type: 'seCard', count: 3 },
+            { type: 'seCard', count: 6 },
           ],
         },
         {
@@ -457,7 +459,7 @@ const specialEventData: SED = {
           },
           toolCars: [{ car_id: 'utopia', freeTry: false }],
           rewords: [
-            { type: 'seCard', count: 4 },
+            { type: 'seCard', count: 6 },
           ],
         },
         {
@@ -468,7 +470,7 @@ const specialEventData: SED = {
           },
           toolCars: [{ car_id: 'utopia', freeTry: false }],
           rewords: [
-            { type: 'seCard', count: 6 },
+            { type: 'seCard', count: 9 },
           ],
         },
         {
