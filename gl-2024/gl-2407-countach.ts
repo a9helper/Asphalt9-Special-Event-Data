@@ -557,7 +557,7 @@ const template: SED = {
     },
     {
       stage: 10,
-      unlockConditions: 130,
+      unlockConditions: 145,
       clubRewords: [
         { type: 'credit', count: 20000 },
         
@@ -616,7 +616,7 @@ const template: SED = {
     },
     {
       stage: 11,
-      unlockConditions: 130,
+      unlockConditions: 160,
       clubRewords: [
         { type: 'credit', count: 20000 },
         
@@ -675,7 +675,7 @@ const template: SED = {
     },
     {
       stage: 12,
-      unlockConditions: 130,
+      unlockConditions: 175,
       clubRewords: [
         { type: 'credit', count: 20000 },
         
@@ -747,7 +747,7 @@ const template: SED = {
     },
     {
       stage: 13,
-      unlockConditions: 130,
+      unlockConditions: 195,
       clubRewords: [
         { type: 'credit', count: 20000 },
         
@@ -819,7 +819,7 @@ const template: SED = {
     },
     {
       stage: 14,
-      unlockConditions: 130,
+      unlockConditions: 220,
       clubRewords: [
         { type: 'credit', count: 20000 },
         
@@ -903,7 +903,7 @@ const template: SED = {
     },
     {
       stage: 15,
-      unlockConditions: 130,
+      unlockConditions: 250,
       clubRewords: [
         { type: 'token', count: 25 },
         
@@ -982,7 +982,7 @@ const template: SED = {
     },
     {
       stage: 16,
-      unlockConditions: 130,
+      unlockConditions: 250,
       clubRewords: [
         
       ],
