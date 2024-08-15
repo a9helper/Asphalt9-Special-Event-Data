@@ -76,7 +76,7 @@ const specialEventData: SED = {
     },
   ],
   notes: [
-    "因阶段18未提供试驾，显而易见，KTM 未达到 3 星或者其他任意工具车未达到 5 星，将无法获得 340 条件的钥匙。"
+    "因阶段 18 未提供试驾，显而易见，KTM 未达到 3 星或者其他任意工具车未达到 5 星，将无法获得 340 条件的钥匙。"
   ],
   processRewords: [
     { conditions: 28, reword: { type: 'token', count: 28 } },
