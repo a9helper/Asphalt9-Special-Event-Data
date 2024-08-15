@@ -76,7 +76,7 @@ const specialEventData: SED = {
     },
   ],
   notes: [
-    "注意可达到340条件或者原本就有钥匙时再勾选【CCXR已解锁】！"
+    "因阶段18未提供试驾，显而易见，KTM 未达到 3 星或者其他任意工具车未达到 5 星，将无法获得 340 条件的钥匙。"
   ],
   processRewords: [
     { conditions: 28, reword: { type: 'token', count: 28 } },
