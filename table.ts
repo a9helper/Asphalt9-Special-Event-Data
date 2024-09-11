@@ -1,4 +1,4 @@
-import data from './al-2024/al-2408-ccxr.ts'
+import data from './gl-2024/gl-2409-revuelto.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
 let conditionsCount = 0
