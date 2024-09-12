@@ -1105,7 +1105,7 @@
   },
   {
     car_id: '488gtbevo',
-    fullName: 'Ferrari 488 GTB Challenge EVO🔑',
+    fullName: 'Ferrari 488 Challenge EVO🔑',
     nickName: '488 EVO',
     isKeyCar: true,
     rankLimits: [],

@@ -1,4 +1,4 @@
-import data from './gl-2024/gl-2409-revuelto.ts'
+import data from './gl-2024/gl-2409-sf90.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
 let conditionsCount = 0
