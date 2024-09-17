@@ -48,7 +48,7 @@ const specialEventData: SED = {
       car_id: 'asfane',
       fullName: 'FV Frangivento Asfane',
       nickName: 'Asfane',
-      isKeyCar: false,
+      isKeyCar: true,
       rankLimits: [],
       star: 6,
     },
@@ -115,7 +115,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: '765lt', freeTry: false }],
+          toolCars: [{ car_id: '765lt', freeTry: true }],
           rewords: [
             { type: 'credit', count: 5*28888 },
           ],
@@ -126,7 +126,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: '765lt', freeTry: false }],
+          toolCars: [{ car_id: '765lt', freeTry: true }],
           rewords: [
             { type: 'token', count: 60 },
           ],
@@ -137,7 +137,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: '765lt', freeTry: false }],
+          toolCars: [{ car_id: '765lt', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3 },
           ],
