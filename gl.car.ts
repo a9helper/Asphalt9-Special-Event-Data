@@ -154,7 +154,7 @@
   {
     car_id: 'targa',
     fullName: 'Porsche 911 Targa 4S',
-    nickName: 'D911',
+    nickName: 'Targa',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -210,7 +210,7 @@
   {
     car_id: 'taycan',
     fullName: 'Porsche Taycan Turbo S',
-    nickName: '电蛙',
+    nickName: 'Taycan',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -346,7 +346,7 @@
   {
     car_id: 'm4',
     fullName: 'BMW M4 GTS',
-    nickName: 'm4',
+    nickName: 'M4',
     isKeyCar: false,
     rankLimits: [],
     star: 3,
@@ -378,7 +378,7 @@
   {
     car_id: 'acr',
     fullName: 'Dodge Viper ACR',
-    nickName: '蝰蛇',
+    nickName: 'ACR',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -402,7 +402,15 @@
   {
     car_id: 'h2',
     fullName: 'Pininfarina H2 Speed',
-    nickName: 'h2',
+    nickName: 'H2',
+    isKeyCar: false,
+    rankLimits: [],
+    star: 4,
+  },
+  {
+    car_id: 'sagaris',
+    fullName: 'TVR Sagaris',
+    nickName: 'Sagaris',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -426,7 +434,7 @@
   {
     car_id: 'nsx',
     fullName: 'Acura 2017 NSX',
-    nickName: 'nsx',
+    nickName: 'NSX',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -578,7 +586,7 @@
   {
     car_id: 'stingray',
     fullName: 'Chevrolet Corvette Stingray',
-    nickName: '黄貂鱼',
+    nickName: 'Stingray',
     isKeyCar: false,
     rankLimits: [],
     star: 5,
@@ -698,7 +706,7 @@
   {
     car_id: 'db11',
     fullName: 'Aston Martin DB11',
-    nickName: 'db11',
+    nickName: 'DB11',
     isKeyCar: false,
     rankLimits: [],
     star: 3,
@@ -722,7 +730,7 @@
   {
     car_id: 'w70',
     fullName: 'Exotic Rides W70',
-    nickName: 'w70',
+    nickName: 'W70',
     isKeyCar: false,
     rankLimits: [],
     star: 3,
@@ -738,7 +746,7 @@
   {
     car_id: 'fordgt',
     fullName: 'Ford GT',
-    nickName: '福特gt',
+    nickName: '福特GT',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -746,7 +754,7 @@
   {
     car_id: 'asterion',
     fullName: 'Lamborghini Asterion',
-    nickName: '牛A',
+    nickName: '蓝牛',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -776,6 +784,14 @@
     star: 4,
   },
   {
+    car_id: 'm4gt3',
+    fullName: 'BMW M4 GT3',
+    nickName: 'M4 GT3',
+    isKeyCar: false,
+    rankLimits: [],
+    star: 4,
+  },
+  {
     car_id: 'cien',
     fullName: 'Cadillac Cien Concept',
     nickName: '塞恩',
@@ -784,10 +800,10 @@
     star: 4,
   },
   {
-    car_id: 'm4gt3',
-    fullName: 'BMW M4 GT3',
-    nickName: 'M4 GT3',
-    isKeyCar: false,
+    car_id: 'valour',
+    fullName: 'Aston Martin Valour🔑',
+    nickName: 'Valour',
+    isKeyCar: true,
     rankLimits: [],
     star: 4,
   },
@@ -890,7 +906,7 @@
   {
     car_id: 'f12tdf',
     fullName: 'Ferrari F12tdf',
-    nickName: 'f12',
+    nickName: 'F12',
     isKeyCar: false,
     rankLimits: [],
     star: 5,
@@ -954,7 +970,7 @@
   {
     car_id: '550',
     fullName: 'Sin R1 550',
-    nickName: 'sin',
+    nickName: 'SIN',
     isKeyCar: false,
     rankLimits: [],
     star: 5,
@@ -1017,7 +1033,7 @@
   },
   {
     car_id: 'sc63',
-    fullName: 'Lamborghini SC63',
+    fullName: 'Lamborghini SC63🔑',
     nickName: 'SC63',
     isKeyCar: true,
     rankLimits: [],
@@ -1050,7 +1066,7 @@
   {
     car_id: 'invencible',
     fullName: 'Lamborghini Invencible',
-    nickName: '无敌',
+    nickName: '无敌牛',
     isKeyCar: false,
     rankLimits: [],
     star: 5,
@@ -1105,7 +1121,7 @@
   },
   {
     car_id: '488gtbevo',
-    fullName: 'Ferrari 488 Challenge EVO🔑',
+    fullName: 'Ferrari 488  Challenge EVO🔑',
     nickName: '488 EVO',
     isKeyCar: true,
     rankLimits: [],
@@ -1168,6 +1184,14 @@
     star: 6,
   },
   {
+    car_id: 'temerario',
+    fullName: 'Lamborghini Temerario🔑',
+    nickName: 'Temerario',
+    isKeyCar: true,
+    rankLimits: [],
+    star: 6,
+  },
+  {
     car_id: 'er9',
     fullName: 'Lotus E-R9🔑',
     nickName: 'ER9',
@@ -1210,7 +1234,7 @@
   {
     car_id: 'vipergts',
     fullName: 'Dodge Viper GTS',
-    nickName: 'A蛇',
+    nickName: '紫蛇',
     isKeyCar: false,
     rankLimits: [],
     star: 4,
@@ -1584,6 +1608,14 @@
     star: 6,
   },
   {
+    car_id: 'vision111',
+    fullName: 'Mercedes-Benz Vision One-Eleven🔑',
+    nickName: 'Vision 111',
+    isKeyCar: true,
+    rankLimits: [],
+    star: 6,
+  },
+  {
     car_id: 'centenario',
     fullName: 'Lamborghini Centenario',
     nickName: '百年牛',
@@ -1866,7 +1898,7 @@
   {
     car_id: 'chiron',
     fullName: 'Bugatti Chiron',
-    nickName: '布加迪',
+    nickName: '肥龙',
     isKeyCar: false,
     rankLimits: [],
     star: 6,
@@ -1952,6 +1984,14 @@
     star: 6,
   },
   {
+    car_id: 'mistral',
+    fullName: 'Bugatti Mistral',
+    nickName: 'Mistral',
+    isKeyCar: false,
+    rankLimits: [],
+    star: 6,
+  },
+  {
     car_id: 'owl',
     fullName: 'Aspark Owl',
     nickName: '猫头鹰',
@@ -2012,6 +2052,14 @@
     fullName: 'Bugatti LA Voiture Noire🔑',
     nickName: '黑龙',
     isKeyCar: true,
+    rankLimits: [],
+    star: 6,
+  },
+  {
+    car_id: '21c',
+    fullName: 'Czinger 21C',
+    nickName: '21C',
+    isKeyCar: false,
     rankLimits: [],
     star: 6,
   },
