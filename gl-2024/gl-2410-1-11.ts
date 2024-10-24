@@ -5,9 +5,25 @@ const template: SED = {
   haveClubRewords: true,
   haveSkin: false,
   havePackConditions: false,
-  haveEventKey: false,
+  haveEventKey: true,
   packConditions: 0,
   toolCars: [
+    {
+      car_id: 'bacalar',
+      fullName: 'Bentley Mulliner Bacalar',
+      nickName: 'Bacalar',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 5,
+    },
+    {
+      car_id: 'panamera',
+      fullName: 'Porsche Panamera Turbo S🔑',
+      nickName: '帕拉梅拉',
+      isKeyCar: true,
+      rankLimits: [],
+      star: 5,
+    },
     {
       car_id: 'sagaris',
       fullName: 'TVR Sagaris',
@@ -17,41 +33,41 @@ const template: SED = {
       star: 4,
     },
     {
-      car_id: 'victor',
-      fullName: 'Aston Martin Victor',
-      nickName: 'Victor',
+      car_id: 'drakogte',
+      fullName: 'Drako GTE',
+      nickName: '德拉科GTE',
       isKeyCar: false,
       rankLimits: [],
-      star: 6,
+      star: 4,
     },
     {
-      car_id: 'xj220',
-      fullName: 'Jaguar XJ220 TWR🔑',
-      nickName: 'XJ220',
-      isKeyCar: true,
-      rankLimits: [],
-      star: 6,
-    },
-    {
-      car_id: 'zagato',
-      fullName: 'Aston Martin DBS GT Zagato',
-      nickName: 'Zagato',
-      isKeyCar: false,
-      rankLimits: [],
-      star: 6,
-    },
-    {
-      car_id: 'berlinetta',
-      fullName: 'Puritalia Berlinetta',
-      nickName: 'Berlinetta',
+      car_id: 'one77',
+      fullName: 'Aston Martin One77',
+      nickName: 'One77',
       isKeyCar: false,
       rankLimits: [],
       star: 5,
     },
     {
-      car_id: 'veyron',
-      fullName: 'Bugatti Veyron 16.4 Grand Sport Vitesse',
-      nickName: '威龙',
+      car_id: 'evija',
+      fullName: 'Lotus Evija',
+      nickName: 'Evija',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 6,
+    },
+    {
+      car_id: 'bc',
+      fullName: 'Pagani Huayra BC',
+      nickName: 'BC',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 6,
+    },
+    {
+      car_id: 'valhalla',
+      fullName: 'Aston Martin Valhalla Concept Car',
+      nickName: '英灵殿',
       isKeyCar: false,
       rankLimits: [],
       star: 6,
@@ -61,27 +77,26 @@ const template: SED = {
 
 
     {
-      car_id: '21c',
-      fullName: 'Czinger 21C',
-      nickName: '21C',
-      isKeyCar: false,
+      car_id: 'vision111',
+      fullName: 'Mercedes-Benz Vision One-Eleven🔑',
+      nickName: 'Vision 111',
+      isKeyCar: true,
       rankLimits: [],
       star: 6,
     },
   ],
   processRewords: [
-    { conditions: 30, reword: { type: 'seCard', count: 1 }  },
-    { conditions: 50, reword: { type: 'token', count: 100 }  },
-    { conditions: 80, reword: { type: 'seCard', count: 2 }  },
-    { conditions: 140, reword: { type: 'seCard', count: 3 }  },
-    { conditions: 170, reword: { type: 'credit', count: 150000 }  },
-    { conditions: 200, reword: { type: 'seCard', count: 4 }  },
-    { conditions: 300, reword: { type: 'sePart', count: 1 } },
-    { conditions: 410, reword: { type: 'seCard', count: 5 }  },
-    { conditions: 475, reword: { type: 'token', count: 250 }  },
-    { conditions: 490, reword: { type: 'sePart', count: 1 } },
-    { conditions: 506, reword: { type: 'sePart', count: 3 } },
-
+    { conditions: 10, reword: { type: 'seCard', count: 1 }  },
+    { conditions: 50, reword: { type: 'seCard', count: 2 }  },
+    { conditions: 75, reword: { type: 'credit', count: 100000 }  },
+    { conditions: 120, reword: { type: 'seCard', count: 3 }  },
+    { conditions: 180, reword: { type: 'token', count: 200 }  },
+    { conditions: 220, reword: { type: 'seCard', count: 3 }  },
+    { conditions: 270, reword: { type: 'seCard', count: 4 }  },
+    { conditions: 320, reword: { type: 'sePart', count: 1 } },
+    { conditions: 350, reword: { type: 'sePart', count: 1 } },
+    { conditions: 380, reword: { type: 'sePart', count: 1 } },
+    { conditions: 404, reword: { type: 'seKey', count: 1 } },
 
     
 
@@ -103,39 +118,77 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 22,
+          conditions: 9,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'sagaris', freeTry: true },
+            { car_id: 'bacalar', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 300000 },
-            { type: 'seCard', count: 2 },
+            { type: 'credit', count: 40000 },
           ],
         },
         {
-          conditions: 10,
+          conditions: 8,
           join: {
             star: 2,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'sagaris', freeTry: true },
+            { car_id: 'bacalar', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 120000 },
-            { type: 'seCard', count: 3 },
-            { type: 'token', count: 45 },
+            { type: 'credit', count: 60000 },
+          ],
+        },
+        {
+          conditions: 3,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'bacalar', freeTry: false },
+          ],
+          rewords: [
+            { type: 'token', count: 30 },
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'bacalar', freeTry: false },
+          ],
+          rewords: [
+            { type: 'token', count: 60 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+        {
+          conditions: 3,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'bacalar', freeTry: false },
+          ],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'sePart', count: 1 },
           ],
         },
       ],
     },
     {
       stage: 2,
-      unlockConditions: 10,
+      unlockConditions: 5,
       clubRewords: [
         { type: 'credit', count: 5000 },
         
@@ -143,21 +196,86 @@ const template: SED = {
       ],
       missions: [
         {
-          conditions: 15,
+          conditions: 9,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'victor', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'panamera', freeTry: true },
           ],
           rewords: [
-            { type: 'credit', count: 125000 },
+            { type: 'credit', count: 40000 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'panamera', freeTry: true },
+          ],
+          rewords: [
+            { type: 'credit', count: 60000 },
+          ],
+        },
+        {
+          conditions: 3,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'panamera', freeTry: true },
+          ],
+          rewords: [
+            { type: 'token', count: 30 },
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'panamera', freeTry: true },
+          ],
+          rewords: [
+            { type: 'token', count: 60 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+        {
+          conditions: 3,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'panamera', freeTry: true },
+          ],
+          rewords: [
+            { type: 'seCard', count: 2 },
+            { type: 'sePart', count: 1 },
+          ],
+        },
+        
+      ],
+    },
+    // generate stage 3 to 25 like stage 2
+    {
+      stage: 3,
+      unlockConditions: 15,
+      clubRewords: [
+        { type: 'credit', count: 5000 },
+        
+      ],
+      missions: [
+        {
+          conditions: 13,
           join: {
             star: 1,
             rank: 0,
@@ -167,7 +285,133 @@ const template: SED = {
           ],
           rewords: [
             { type: 'credit', count: 90000 },
-            { type: 'token', count: 75 },
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'sagaris', freeTry: false },
+          ],
+          rewords: [
+            { type: 'token', count: 45 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+      ],
+    },
+    {
+      stage: 4,
+      unlockConditions: 18,
+      clubRewords: [
+        { type: 'credit', count: 5000 },
+        
+      ],
+      missions: [
+        {
+          conditions: 17,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'vision111', freeTry: true },
+          ],
+          rewords: [
+            { type: 'credit', count: 60000 },
+            { type: 'token', count: 45 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+      ],
+    },
+    {
+      stage: 5,
+      unlockConditions: 30,
+      clubRewords: [
+        { type: 'credit', count: 5000 },
+        
+      ],
+      missions: [
+        {
+          conditions: 14,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'drakogte', freeTry: false },
+          ],
+          rewords: [
+            { type: 'credit', count: 60000 },
+          ],
+        },
+        {
+          conditions: 6,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'drakogte', freeTry: false },
+          ],
+          rewords: [
+            { type: 'credit', count: 60000 },
+            { type: 'token', count: 30 },
+          ],
+        },
+        {
+          conditions: 5,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'drakogte', freeTry: false },
+          ],
+          rewords: [
+            { type: 'token', count: 30 },
+            { type: 'seCard', count: 2 },
+          ],
+        },
+        {
+          conditions: 5,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'drakogte', freeTry: false },
+          ],
+          rewords: [
+            { type: 'seCard', count: 4 },
+            { type: 'sePart', count: 1 },
+          ],
+        },
+      ],
+    },
+    {
+      stage: 6,
+      unlockConditions: 40,
+      clubRewords: [
+        { type: 'credit', count: 5000 },
+        
+      ],
+      missions: [
+        {
+          conditions: 9,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'one77', freeTry: false },
+          ],
+          rewords: [
+            { type: 'credit', count: 60000 },
           ],
         },
         {
@@ -177,13 +421,10 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'victor', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'one77', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 140000 },
-            { type: 'token', count: 60 },
-            { type: 'seCard', count: 1 },
+            { type: 'credit', count: 75000 },
           ],
         },
         {
@@ -193,132 +434,53 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'victor', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'one77', freeTry: false },
           ],
           rewords: [
-            { type: 'seCard', count: 3 },
+            { type: 'token', count: 30 },
           ],
         },
-        
-      ],
-    },
-    // generate stage 3 to 25 like stage 2
-    {
-      stage: 3,
-      unlockConditions: 25,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-        
-      ],
-      missions: [
         {
-          conditions: 20,
+          conditions: 6,
           join: {
-            star: 1,
+            star: 4,
             rank: 0,
           },
           toolCars: [
-            { car_id: '21c', freeTry: true },
+            { car_id: 'one77', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 250000 },
-            { type: 'token', count: 150 },
+            { type: 'token', count: 75 },
+            { type: 'seCard', count: 3 },
           ],
         },
+        {
+          conditions: 4,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'one77', freeTry: false },
+          ],
+          rewords: [
+            { type: 'seCard', count: 3 },
+            { type: 'sePart', count: 1 },
+          ],
+        },
+        
       ],
     },
     {
-      stage: 4,
-      unlockConditions: 50,
+      stage: 7,
+      unlockConditions: 60,
       clubRewords: [
         { type: 'credit', count: 5000 },
         
       ],
       missions: [
         {
-          conditions: 15,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'xj220', freeTry: true },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 125000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 105000 },
-            { type: 'token', count: 75 },
-          ],
-        },
-        {
-          conditions: 7,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'xj220', freeTry: true },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 160000 },
-            { type: 'token', count: 75 },
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'xj220', freeTry: true },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 3 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 5,
-      unlockConditions: 75,
-      clubRewords: [
-        { type: 'credit', count: 5000 },
-        
-      ],
-      missions: [
-        {
-          conditions: 15,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'zagato', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 125000 },
-          ],
-        },
-        {
-          conditions: 6,
+          conditions: 13,
           join: {
             star: 1,
             rank: 0,
@@ -328,100 +490,70 @@ const template: SED = {
           ],
           rewords: [
             { type: 'credit', count: 120000 },
-            { type: 'token', count: 75 },
           ],
         },
         {
-          conditions: 8,
+          conditions: 4,
           join: {
             star: 2,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'zagato', freeTry: false },
             { car_id: 'sagaris', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 160000 },
-            { type: 'token', count: 75 },
+            { type: 'token', count: 60 },
             { type: 'seCard', count: 1 },
           ],
         },
-        {
-          conditions: 2,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'zagato', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 4 },
-          ],
-        },
       ],
     },
     {
-      stage: 6,
-      unlockConditions: 100,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-        
-      ],
-      missions: [
-        {
-          conditions: 20,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: '21c', freeTry: true },
-          ],
-          rewords: [
-            { type: 'credit', count: 300000 },
-            { type: 'token', count: 200 },
-          ],
-        },
-        
-      ],
-    },
-    {
-      stage: 7,
-      unlockConditions: 125,
+      stage: 8,
+      unlockConditions: 60,
       clubRewords: [
         { type: 'credit', count: 5000 },
         
+        
       ],
       missions: [
         {
-          conditions: 15,
+          conditions: 17,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'berlinetta', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'vision111', freeTry: true },
           ],
           rewords: [
-            { type: 'credit', count: 125000 },
+            { type: 'credit', count: 90000 },
+            { type: 'token', count: 60 },
+            { type: 'seCard', count: 1 },
           ],
         },
+      ],
+    },
+    {
+      stage: 9,
+      unlockConditions: 85,
+      clubRewords: [
+        { type: 'credit', count: 5000 },
+        
+        
+      ],
+      missions: [
         {
-          conditions: 6,
+          conditions: 8,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'evija', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 135000 },
-            { type: 'token', count: 75 },
+            { type: 'credit', count: 60000 },
           ],
         },
         {
@@ -431,13 +563,10 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'berlinetta', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'evija', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 200000 },
-            { type: 'token', count: 105 },
-            { type: 'seCard', count: 1 },
+            { type: 'token', count: 45 },
           ],
         },
         {
@@ -447,200 +576,10 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'berlinetta', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'evija', freeTry: false },
           ],
           rewords: [
-            { type: 'seCard', count: 3 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 8,
-      unlockConditions: 150,
-      clubRewords: [
-        { type: 'credit', count: 5000 },
-        
-        
-      ],
-      missions: [
-        {
-          conditions: 15,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'veyron', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 125000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 150000 },
-            { type: 'token', count: 75 },
-          ],
-        },
-        {
-          conditions: 8,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'veyron', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 220000 },
             { type: 'token', count: 120 },
-            { type: 'seCard', count: 1 },
-          ],
-        },
-        {
-          conditions: 2,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'veyron', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 4 },
-          ],
-        },
-      ],
-    },
-    {
-      stage: 9,
-      unlockConditions: 175,
-      clubRewords: [
-        { type: 'credit', count: 10000 },
-        
-        
-      ],
-      missions: [
-        {
-          conditions: 20,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: '21c', freeTry: true },
-          ],
-          rewords: [
-            { type: 'credit', count: 375000 },
-            { type: 'token', count: 250 },
-          ],
-        },
-        
-      ],
-    },
-    {
-      stage: 10,
-      unlockConditions: 200,
-      clubRewords: [
-        { type: 'credit', count: 15000 },
-        
-        
-      ],
-      missions: [
-        {
-          conditions: 15,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 300000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 250000 },
-            { type: 'seCard', count: 1 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 135 },
-            { type: 'sePart', count: 1 },
-          ],
-        },
-        
-        
-      ],
-    },
-    {
-      stage: 11,
-      unlockConditions: 225,
-      clubRewords: [
-        { type: 'credit', count: 15000 },
-        
-        
-      ],
-      missions: [
-        {
-          conditions: 15,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'victor', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 250000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 165000 },
-            { type: 'token', count: 150 },
           ],
         },
         {
@@ -650,27 +589,25 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'victor', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'evija', freeTry: false },
           ],
           rewords: [
+            { type: 'credit', count: 160000 },
             { type: 'seCard', count: 1 },
-            { type: 'credit', count: 240000 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 4,
           join: {
             star: 5,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'victor', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'evija', freeTry: false },
           ],
           rewords: [
             { type: 'seCard', count: 3 },
-            { type: 'credit', count: 255000 },
+            { type: 'sePart', count: 1 },
           ],
         },
         {
@@ -680,13 +617,78 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'victor', freeTry: false },
+            { car_id: 'evija', freeTry: false },
+          ],
+          rewords: [
+            { type: 'seCard', count: 5 },
+            { type: 'sePart', count: 1 },
+          ],
+        },
+        
+      ],
+    },
+    {
+      stage: 10,
+      unlockConditions: 110,
+      clubRewords: [
+        { type: 'credit', count: 5000 },
+        
+        
+      ],
+      missions: [
+        {
+          conditions: 13,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [
             { car_id: 'sagaris', freeTry: false },
           ],
           rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 150 },
-            { type: 'sePart', count: 1 },
+            { type: 'credit', count: 120000 },
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'sagaris', freeTry: false },
+          ],
+          rewords: [
+            { type: 'token', count: 90 },
+            { type: 'seCard', count: 1 },
+          ],
+        },
+        
+        
+      ],
+    },
+    {
+      stage: 11,
+      unlockConditions: 110,
+      clubRewords: [
+        { type: 'credit', count: 5000 },
+        
+        
+      ],
+      missions: [
+        {
+          conditions: 17,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'vision111', freeTry: true },
+          ],
+          rewords: [
+            { type: 'credit', count: 120000 },
+            { type: 'token', count: 90 },
+            { type: 'seCard', count: 1 },
           ],
         },
 
@@ -696,39 +698,50 @@ const template: SED = {
     },
     {
       stage: 12,
-      unlockConditions: 250,
+      unlockConditions: 140,
       clubRewords: [
-        { type: 'credit', count: 15000 },
+        { type: 'credit', count: 5000 },
         
         
       ],
       missions: [
         {
-          conditions: 15,
+          conditions: 8,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'xj220', freeTry: true },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'bc', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 250000 },
+            { type: 'credit', count: 75000 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'bc', freeTry: false },
+          ],
+          rewords: [
+            { type: 'token', count: 45 },
+          ],
+        },
+        {
+          conditions: 3,
           join: {
             star: 3,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'bc', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 195000 },
-            { type: 'token', count: 150 },
+            { type: 'token', count: 120 },
           ],
         },
         {
@@ -738,42 +751,38 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'xj220', freeTry: true },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'bc', freeTry: false },
           ],
           rewords: [
+            { type: 'credit', count: 200000 },
             { type: 'seCard', count: 1 },
-            { type: 'credit', count: 280000 },
           ],
         },
         {
-          conditions: 5,
+          conditions: 4,
           join: {
             star: 5,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'xj220', freeTry: true },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'bc', freeTry: false },
           ],
           rewords: [
-            { type: 'seCard', count: 2 },
-            { type: 'credit', count: 285000 },
+            { type: 'seCard', count: 3 },
+            { type: 'sePart', count: 1 },
           ],
         },
         {
-          conditions: 7,
+          conditions: 6,
           join: {
             star: 6,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'xj220', freeTry: true },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'bc', freeTry: false },
           ],
           rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 165 },
+            { type: 'seCard', count: 5 },
             { type: 'sePart', count: 1 },
           ],
         },
@@ -782,85 +791,38 @@ const template: SED = {
     },
     {
       stage: 13,
-      unlockConditions: 275,
+      unlockConditions: 180,
       clubRewords: [
-        { type: 'credit', count: 15000 },
+        { type: 'credit', count: 5000 },
         
         
       ],
       missions: [
         {
-          conditions: 15,
+          conditions: 13,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'zagato', freeTry: false },
             { car_id: 'sagaris', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 250000 },
+            { type: 'credit', count: 120000 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 4,
           join: {
-            star: 3,
+            star: 2,
             rank: 0,
           },
           toolCars: [
             { car_id: 'sagaris', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 225000 },
             { type: 'token', count: 150 },
-          ],
-        },
-        {
-          conditions: 5,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'zagato', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
             { type: 'seCard', count: 1 },
-            { type: 'credit', count: 320000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'zagato', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 3 },
-            { type: 'credit', count: 300000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'zagato', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 180 },
-            { type: 'sePart', count: 1 },
           ],
         },
         
@@ -868,84 +830,26 @@ const template: SED = {
     },
     {
       stage: 14,
-      unlockConditions: 300,
+      unlockConditions: 180,
       clubRewords: [
-        { type: 'credit', count: 15000 },
+        { type: 'credit', count: 10000 },
         
         
       ],
       missions: [
         {
-          conditions: 15,
+          conditions: 17,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'berlinetta', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'vision111', freeTry: true },
           ],
           rewords: [
-            { type: 'credit', count: 250000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 255000 },
+            { type: 'credit', count: 150000 },
             { type: 'token', count: 150 },
-          ],
-        },
-        {
-          conditions: 1,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'berlinetta', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
             { type: 'seCard', count: 1 },
-          ],
-        },
-        {
-          conditions: 7,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'berlinetta', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 3 },
-            { type: 'credit', count: 360000 },
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: 'berlinetta', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 195 },
-            { type: 'sePart', count: 1 },
           ],
         },
         
@@ -953,39 +857,50 @@ const template: SED = {
     },
     {
       stage: 15,
-      unlockConditions: 325,
+      unlockConditions: 220,
       clubRewords: [
-        { type: 'credit', count: 15000 },
+        { type: 'credit', count: 10000 },
         
         
       ],
       missions: [
         {
-          conditions: 15,
+          conditions: 8,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'veyron', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'valhalla', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 250000 },
+            { type: 'credit', count: 90000 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [
+            { car_id: 'valhalla', freeTry: false },
+          ],
+          rewords: [
+            { type: 'token', count: 45 },
+          ],
+        },
+        {
+          conditions: 3,
           join: {
             star: 3,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'valhalla', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 285000 },
-            { type: 'token', count: 150 },
+            { type: 'token', count: 120 },
           ],
         },
         {
@@ -995,27 +910,25 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'veyron', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'valhalla', freeTry: false },
           ],
           rewords: [
+            { type: 'credit', count: 240000 },
             { type: 'seCard', count: 1 },
-            { type: 'credit', count: 320000 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 4,
           join: {
             star: 5,
             rank: 0,
           },
           toolCars: [
-            { car_id: 'veyron', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'valhalla', freeTry: false },
           ],
           rewords: [
             { type: 'seCard', count: 3 },
-            { type: 'credit', count: 360000 },
+            { type: 'sePart', count: 1 },
           ],
         },
         {
@@ -1025,12 +938,10 @@ const template: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'veyron', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
+            { car_id: 'valhalla', freeTry: false },
           ],
           rewords: [
-            { type: 'seCard', count: 4 },
-            { type: 'token', count: 210 },
+            { type: 'seCard', count: 5 },
             { type: 'sePart', count: 1 },
           ],
         },
@@ -1039,111 +950,41 @@ const template: SED = {
     },
     {
       stage: 16,
-      unlockConditions: 350,
+      unlockConditions: 280,
       clubRewords: [
-        { type: 'credit', count: 20000 },
+        { type: 'credit', count: 10000 },
         
         
       ],
       missions: [
         {
-          conditions: 18,
+          conditions: 13,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [
-            { car_id: '21c', freeTry: false },
             { car_id: 'sagaris', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 700000 },
-          ],
-        },
-        {
-          conditions: 5,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: '21c', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'token', count: 375 },
+            { type: 'credit', count: 150000 },
           ],
         },
         {
           conditions: 4,
           join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: '21c', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 600000 },
-          ],
-        },
-        {
-          conditions: 8,
-          join: {
-            star: 3,
+            star: 2,
             rank: 0,
           },
           toolCars: [
             { car_id: 'sagaris', freeTry: false },
           ],
           rewords: [
-            { type: 'credit', count: 500000 },
-            { type: 'token', count: 150 },
+            { type: 'token', count: 225 },
+            { type: 'seCard', count: 1 },
           ],
         },
-        {
-          conditions: 3,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: '21c', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'token', count: 300 },
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: '21c', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'credit', count: 525000 },
-          ],
-        },
-        {
-          conditions: 2,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [
-            { car_id: '21c', freeTry: false },
-            { car_id: 'sagaris', freeTry: false },
-          ],
-          rewords: [
-            { type: 'sePart', count: 2 },
-          ],
-        },
+        
         
         
         
@@ -1153,7 +994,94 @@ const template: SED = {
     
     {
       stage: 17,
-      unlockConditions: 350,
+      unlockConditions: 280,
+      clubRewords: [
+        { type: 'credit', count: 10000 },
+        
+      ],
+      missions: [
+        {
+          conditions: 8,
+          join: {
+            star: 1,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vision111', freeTry: false }],
+          rewords: [
+            { type: 'credit', count: 75000 },
+            
+          ],
+        },
+        {
+          conditions: 8,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vision111', freeTry: false }],
+          rewords: [
+            { type: 'token', count: 150 },
+            
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vision111', freeTry: false }],
+          rewords: [
+            { type: 'credit', count: 225000 },
+            { type: 'seCard', count: 1 },
+            
+          ],
+        },
+        {
+          conditions: 3,
+          join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vision111', freeTry: false }],
+          rewords: [
+            { type: 'credit', count: 450000 },
+            
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vision111', freeTry: false }],
+          rewords: [
+            { type: 'credit', count: 600000 },
+            { type: 'seCard', count: 1 },
+            
+          ],
+        },
+        {
+          conditions: 8,
+          join: {
+            star: 6,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vision111', freeTry: false }],
+          rewords: [
+            { type: 'credit', count: 1200000 },
+            { type: 'token', count: 300 },
+            { type: 'sePart', count: 2 },
+            
+          ],
+        },
+        
+      ],
+    },
+    {
+      stage: 18,
+      unlockConditions: 280,
       clubRewords: [
         
       ],
@@ -1164,9 +1092,9 @@ const template: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: '21c', freeTry: false }],
+          toolCars: [{ car_id: 'vision111', freeTry: true }],
           rewords: [
-            { type: 'seSkin', count: 1 },
+            
             
           ],
         },
@@ -1177,7 +1105,11 @@ const template: SED = {
     
     
     
-  ],
+
+  
+  
+  
+],
 }
 
 export default template

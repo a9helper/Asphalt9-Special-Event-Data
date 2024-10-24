@@ -1,4 +1,4 @@
-import data from './gl-2024/gl-2410-21c.ts'
+import data from './gl-2024/gl-2410-1-11.ts'
 // import data from './al-2024/al-2410-aurora-1.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
