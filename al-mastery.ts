@@ -1,4 +1,4 @@
-import { MasteryEvent } from "../al.mastery.js";
+import { MasteryEvent } from "./al.mastery.d.ts";
 
 export const masteryEvent:MasteryEvent = {
   notes:[
@@ -1680,7 +1680,7 @@ export const masteryEvent:MasteryEvent = {
         {
           toolCarId:'arashaf10',
           rankList:[
-            2163, 2501, 2833, 3055, 3190
+            2163, 2501, 2833, 3055, 3109
           ]
         },
         {
