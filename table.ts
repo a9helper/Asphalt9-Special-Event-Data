@@ -1,5 +1,5 @@
-// import data from './gl-2024/gl-2411-senna.ts'
-import data from './al-2024/al-2412-speirling.ts'
+import data from './gl-2024/gl-2412-utopia.ts'
+// import data from './al-2024/al-2412-speirling.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
 let conditionsCount = 0
