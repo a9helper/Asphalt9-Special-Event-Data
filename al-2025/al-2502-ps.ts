@@ -1,13 +1,69 @@
 import { SED } from '../type.d.ts'
 
 const specialEventData: SED = {
-  havePack: false,
+  havePack: true,
   haveClubRewords: true,
   haveSkin: true,
   havePackConditions: true,
   haveEventKey: true,
   packConditions: 255,
   toolCars: [
+    {
+      car_id: 'rtr',
+      fullName: 'Ford Mustang RTR Spec 5 10th Anniv.',
+      nickName: '野马RTR',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 4,
+    },
+    {
+      car_id: 'autentica',
+      fullName: 'Lamborghini Autentica🔑',
+      nickName: 'Autentica',
+      isKeyCar: true,
+      rankLimits: [],
+      star: 5,
+    },
+    {
+      car_id: 'centodieci',
+      fullName: 'Bugatti Centodieci🔑',
+      nickName: '白龙',
+      isKeyCar: true,
+      rankLimits: [],
+      star: 6,
+    },
+    {
+      car_id: 'vanda',
+      fullName: 'Vanda Electrics Dendrobium',
+      nickName: '万达',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 6,
+    },
+    {
+      car_id: 'terzo',
+      fullName: 'Lamborghini Terzo Millennio',
+      nickName: '电牛',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 6,
+    },
+    {
+      car_id: 'revuelto',
+      fullName: 'Lamborghini Revuelto',
+      nickName: 'R牛',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 6,
+    },
+    {
+      car_id: 'saleens7',
+      fullName: 'Saleen S7 twin Turbo',
+      nickName: '萨林S7',
+      isKeyCar: false,
+      rankLimits: [],
+      star: 6,
+    },
     
 
 
@@ -61,9 +117,10 @@ const specialEventData: SED = {
           },
           toolCars: [{ car_id: 'pursport', freeTry: true }],
           rewords: [
-            { type: 'token', count: 84 },
-            { type: 'credit', count: 3*18888},
-            { type: 'seCard', count: 2 },
+            { type: 'token', count: 54 },
+            { type: 'credit', count: 4 * 8888},
+            { type: 'seCard', count: 1 },
+            { type: 'sePack', count: 3 },
           ],
         },
       ],
@@ -76,16 +133,16 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 14,
+          conditions: 12,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'solus', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: true }],
           rewords: [
-            { type: 'token', count: 48+56 },
-            { type: 'credit', count: 3*18888},
-            { type: 'seCard', count: 3 },
+            { type: 'credit', count: 5 * 18888},
+            { type: 'seCard', count: 1 },
+            { type: 'sePack', count: 3 },
           ],
         },
       ],
@@ -99,16 +156,16 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 14,
+          conditions: 11,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sf90xx', freeTry: true }],
+          toolCars: [{ car_id: 'autentica', freeTry: true }],
           rewords: [
-            { type: 'token', count: 48+56 },
-            { type: 'credit', count: 3*18888},
-            { type: 'seCard', count: 3 },
+            { type: 'token', count: 72},
+            { type: 'seCard', count: 1 },
+            { type: 'sePack', count: 3 },
           ],
         },
       ],
@@ -121,16 +178,16 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 14,
+          conditions: 12,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'autentica', freeTry: true }],
+          toolCars: [{ car_id: 'centodieci', freeTry: true }],
           rewords: [
-            { type: 'token', count: 48+56 },
-            { type: 'credit', count: 3*18888},
-            { type: 'seCard', count: 3 },
+            { type: 'credit', count: 5 * 28888},
+            { type: 'seCard', count: 1 },
+            { type: 'sePack', count: 3 },
           ],
         },
       ],
@@ -144,16 +201,16 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 13,
+          conditions: 11,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'huayrar', freeTry: true }],
+          toolCars: [{ car_id: 'vanda', freeTry: true }],
           rewords: [
-            { type: 'token', count: 48+56 },
-            { type: 'credit', count: 3*18888},
-            { type: 'seCard', count: 2 },
+            { type: 'token', count: 72},
+            { type: 'seCard', count: 1 },
+            { type: 'sePack', count: 3 },
           ],
         },
       ],
@@ -167,16 +224,17 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 12,
+          conditions: 18,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [{ car_id: 'pursport', freeTry: true }],
           rewords: [
-            { type: 'token', count: 56 },
-            { type: 'credit', count: 5*18888},
+            
+            { type: 'credit', count: 5 * (14888+8888)},
             { type: 'seCard', count: 2 },
+            { type: 'sePack', count: 3 },
           ],
         },
       ],
@@ -191,16 +249,18 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 16,
+          conditions: 17,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'veyron', freeTry: true }],
+          toolCars: [{ car_id: 'terzo', freeTry: true }],
           rewords: [
-            { type: 'token', count: 48+56 },
-            { type: 'credit', count: 2*18888},
-            { type: 'seCard', count: 3 },
+            
+            { type: 'credit', count: 5 * 28888 },
+            { type: 'token', count: 76 },
+            { type: 'seCard', count: 2 },
+            { type: 'sePack', count: 4 },
           ],
         },
       ],
@@ -213,16 +273,18 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 16,
+          conditions: 18,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'senna', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
-            { type: 'token', count: 48+50 },
-            { type: 'credit', count: 40000},
-            { type: 'seCard', count: 3 },
+            
+            { type: 'credit', count: 5 * 28888 },
+            { type: 'token', count: 76 },
+            { type: 'seCard', count: 2 },
+            { type: 'sePack', count: 4 },
           ],
         },
       ],
@@ -236,16 +298,18 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 16,
+          conditions: 19,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'monza', freeTry: true }],
+          toolCars: [{ car_id: 'saleens7', freeTry: true }],
           rewords: [
-            { type: 'token', count: 48+56 },
-            { type: 'credit', count: 2 * 18888},
-            { type: 'seCard', count: 3 },
+            
+            { type: 'credit', count: 5 * 28888 },
+            { type: 'token', count: 72 },
+            { type: 'seCard', count: 2 },
+            { type: 'sePack', count: 4 },
           ],
         },
       ],
@@ -258,16 +322,17 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 12,
+          conditions: 22,
           join: {
             star: 1,
             rank: 0,
           },
           toolCars: [{ car_id: 'pursport', freeTry: true }],
           rewords: [
-            { type: 'token', count: 56 },
-            { type: 'credit', count: 5*28888},
-            { type: 'seCard', count: 2 },
+            
+            { type: 'credit', count: 5 * 18888 },
+            { type: 'token', count: 122 },
+            { type: 'sePack', count: 4 },
           ],
         },
       ],
@@ -282,51 +347,53 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 4,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'autentica', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: true }],
           rewords: [
-            { type: 'token', count: 16 },
-            { type: 'credit', count: 6*28888},
-            
+
           ],
         },
         {
-          conditions: 3,
+          conditions: 8,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'rtr', freeTry: true }],
+          rewords: [
+            
+            { type: 'credit', count: 4 * 38888 },
+            { type: 'token', count: 92 },
+          ],
+        },
+        {
+          conditions: 7,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'autentica', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: true }],
           rewords: [
+            
             { type: 'token', count: 114 },
+            { type: 'seCard', count: 3 },
           ],
         },
         {
-          conditions: 2,
+          conditions: 6,
           join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'autentica', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: true }],
           rewords: [
             
-          ],
-        },
-        {
-          conditions: 4,
-          join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'autentica', freeTry: true }],
-          rewords: [
-            { type: 'seCard', count: 3 },
+            { type: 'sePack', count: 5 },
             { type: 'sePart', count: 1 },
-            
           ],
         },
       ],
@@ -340,75 +407,65 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 4,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'senna', freeTry: true }],
+          toolCars: [{ car_id: 'autentica', freeTry: true }],
           rewords: [
-            { type: 'token', count: 16 },
-            { type: 'credit', count: 6*28888},
-            
+
           ],
         },
         {
-          conditions: 3,
+          conditions: 6,
           join: {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'senna', freeTry: true }],
+          toolCars: [{ car_id: 'autentica', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 3*98888},
             
+            { type: 'credit', count: 4 * 48888 },
+            { type: 'token', count: 36 },
+          ],
+        },
+        {
+          conditions: 6,
+          join: {
+            star: 3,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'autentica', freeTry: true }],
+          rewords: [
+            
+            { type: 'token', count: 84 },
+            { type: 'seCard', count: 3 },
           ],
         },
         {
           conditions: 4,
           join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'senna', freeTry: true }],
-          rewords: [
-            { type: 'token', count: 96 },
-            { type: 'seCard', count: 2 },
-          ],
-        },
-        {
-          conditions: 2,
-          join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'senna', freeTry: true }],
+          toolCars: [{ car_id: 'autentica', freeTry: true }],
           rewords: [
             
+            { type: 'token', count: 114 },
           ],
         },
         {
-          conditions: 5,
+          conditions: 6,
           join: {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'senna', freeTry: true }],
+          toolCars: [{ car_id: 'autentica', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 5 },
             
-          ],
-        },
-        {
-          conditions: 1,
-          join: {
-            star: 6,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'senna', freeTry: true }],
-          rewords: [
+            { type: 'sePack', count: 5 },
             { type: 'sePart', count: 1 },
-            
           ],
         },
 
@@ -424,16 +481,14 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 4,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'monza', freeTry: true }],
+          toolCars: [{ car_id: 'centodieci', freeTry: true }],
           rewords: [
-            { type: 'token', count: 16 },
-            { type: 'credit', count: 6*28888},
-            
+
           ],
         },
         {
@@ -442,22 +497,22 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'monza', freeTry: true }],
+          toolCars: [{ car_id: 'centodieci', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 2*148888},
-            { type: 'seCard', count: 2 },
             
+            { type: 'credit', count: 4 * 48888 },
           ],
         },
         {
-          conditions: 4,
+          conditions: 5,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'monza', freeTry: true }],
+          toolCars: [{ car_id: 'centodieci', freeTry: true }],
           rewords: [
-            { type: 'token', count: 116 },
+            
+            { type: 'token', count: 120 },
           ],
         },
         {
@@ -466,11 +521,34 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'monza', freeTry: true }],
+          toolCars: [{ car_id: 'centodieci', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 3 },
-            { type: 'sePart', count: 1 },
             
+            { type: 'seCard', count: 3 },
+          ],
+        },
+        {
+          conditions: 8,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'centodieci', freeTry: true }],
+          rewords: [
+            
+            { type: 'sePack', count: 5 },
+            { type: 'token', count: 114 },
+          ],
+        },
+        {
+          conditions: 1,
+          join: {
+            star: 6,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'centodieci', freeTry: true }],
+          rewords: [
+            { type: 'sePart', count: 1 },
           ],
         },
 
@@ -486,64 +564,74 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 4,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'vanda', freeTry: true }],
           rewords: [
-            { type: 'token', count: 16 },
-            { type: 'credit', count: 6*28888},
-            
+
           ],
         },
         {
-          conditions: 3,
+          conditions: 4,
           join: {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'vanda', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 3*128888},
             
+            { type: 'credit', count: 4 * 48888 },
           ],
         },
         {
-          conditions: 4,
+          conditions: 5,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
-          rewords: [
-            { type: 'token', count: 76 },
-            { type: 'seCard', count: 2 },
-          ],
-        },
-        {
-          conditions: 2,
-          join: {
-            star: 4,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'vanda', freeTry: true }],
           rewords: [
             
+            { type: 'token', count: 120 },
           ],
         },
         {
           conditions: 4,
           join: {
+            star: 4,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vanda', freeTry: true }],
+          rewords: [
+            
+            { type: 'seCard', count: 3 },
+          ],
+        },
+        {
+          conditions: 8,
+          join: {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'vanda', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 3 },
-            { type: 'sePart', count: 1 },
             
+            { type: 'sePack', count: 5 },
+            { type: 'token', count: 114 },
+          ],
+        },
+        {
+          conditions: 1,
+          join: {
+            star: 6,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'vanda', freeTry: true }],
+          rewords: [
+            { type: 'sePart', count: 1 },
           ],
         },
 
@@ -559,64 +647,74 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 4,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'huayrar', freeTry: true }],
+          toolCars: [{ car_id: 'terzo', freeTry: true }],
           rewords: [
-            { type: 'token', count: 16 },
-            { type: 'credit', count: 6*28888},
-            
+
           ],
         },
         {
-          conditions: 3,
+          conditions: 5,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'terzo', freeTry: true }],
+          rewords: [
+            
+            { type: 'credit', count: 5 * 48888 },
+          ],
+        },
+        {
+          conditions: 7,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'huayrar', freeTry: true }],
+          toolCars: [{ car_id: 'terzo', freeTry: true }],
           rewords: [
-            { type: 'token', count: 114 },
             
+            { type: 'token', count: 166 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 5,
           join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'huayrar', freeTry: true }],
+          toolCars: [{ car_id: 'terzo', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 3 },
-            { type: 'token', count: 144 },
             
+            { type: 'seCard', count: 3 },
+            { type: 'sePack', count: 2 },
           ],
         },
         {
-          conditions: 2,
+          conditions: 7,
           join: {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'huayrar', freeTry: true }],
+          toolCars: [{ car_id: 'terzo', freeTry: true }],
           rewords: [
             
+            { type: 'sePack', count: 5 },
+            { type: 'sePart', count: 2 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 1,
           join: {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'huayrar', freeTry: true }],
+          toolCars: [{ car_id: 'terzo', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 5 },
-            { type: 'sePart', count: 1 },
             
           ],
         },
@@ -632,67 +730,76 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 4,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'veyron', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
-            { type: 'token', count: 16 },
-            { type: 'credit', count: 6*28888},
-            
+
           ],
         },
         {
-          conditions: 3,
+          conditions: 4,
+          join: {
+            star: 2,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
+          rewords: [
+            
+            { type: 'credit', count: 4 * 68888 },
+          ],
+        },
+        {
+          conditions: 8,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'veyron', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
-            { type: 'token', count: 114 },
             
+            { type: 'token', count: 184 },
           ],
         },
         {
-          conditions: 6,
+          conditions: 4,
           join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'veyron', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 4 },
             
+            { type: 'seCard', count: 3 },
+          ],
+        },
+        {
+          conditions: 7,
+          join: {
+            star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
+          rewords: [
+            
+            { type: 'sePack', count: 7 },
           ],
         },
         {
           conditions: 2,
           join: {
-            star: 5,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'veyron', freeTry: true }],
-          rewords: [
-            { type: 'token', count: 156 },
-            
-          ],
-        },
-        {
-          conditions: 6,
-          join: {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'veyron', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 5 },
-            { type: 'sePart', count: 1 },
-            
+            { type: 'sePart', count: 2 },
           ],
         },
+
       ],
     },
     {
@@ -705,77 +812,75 @@ const specialEventData: SED = {
       ],
       missions: [
         {
-          conditions: 11,
+          conditions: 4,
           join: {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'saleens7', freeTry: true }],
           rewords: [
-            { type: 'token', count: 16 },
-            { type: 'credit', count: 6*28888},
-            
+
           ],
         },
         {
-          conditions: 3,
+          conditions: 6,
           join: {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'saleens7', freeTry: true }],
           rewords: [
-            { type: 'credit', count: 3*128888 },
             
+            { type: 'credit', count: 6 * 68888 },
           ],
         },
         {
-          conditions: 3,
+          conditions: 5,
           join: {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'saleens7', freeTry: true }],
           rewords: [
-            { type: 'token', count: 114 },
             
+            { type: 'token', count: 54 },
+            { type: 'sePack', count: 2 },
           ],
         },
         {
-          conditions: 3,
+          conditions: 5,
           join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'saleens7', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 3 },
             
+            { type: 'seCard', count: 4 },
           ],
         },
         {
-          conditions: 4,
+          conditions: 9,
           join: {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'saleens7', freeTry: true }],
           rewords: [
-            { type: 'token', count: 156 },
             
+            { type: 'sePack', count: 5 },
+            { type: 'token', count: 112 },
           ],
         },
         {
-          conditions: 7,
+          conditions: 2,
           join: {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mistral', freeTry: true }],
+          toolCars: [{ car_id: 'saleens7', freeTry: true }],
           rewords: [
-            { type: 'seCard', count: 6 },
-            { type: 'sePart', count: 1 },
-            
+            { type: 'sePart', count: 2 },
           ],
         },
       ],
@@ -789,77 +894,55 @@ const specialEventData: SED = {
         
       ],
       missions: [
-        {
-          conditions: 6,
-          join: {
-            star: 1,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'pursport', freeTry: false }],
-          rewords: [
-            { type: 'credit', count: 6*48888 },
-          ],
-        },
-        {
-          conditions: 3,
-          join: {
-            star: 2,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'pursport', freeTry: false }],
-          rewords: [
-            { type: 'token', count: 204 },
-          ],
-        },
-        
         
         {
-          conditions: 1,
+          conditions: 9,
           join: {
             star: 3,
             rank: 0,
           },
           toolCars: [{ car_id: 'pursport', freeTry: false }],
           rewords: [
-            { type: 'credit', count: 748888 },
+            { type: 'credit', count: 5 * 28888 },
+            { type: 'token', count: 152 },
           ],
         },
         {
-          conditions: 2,
+          conditions: 8,
           join: {
             star: 4,
             rank: 0,
           },
           toolCars: [{ car_id: 'pursport', freeTry: false }],
           rewords: [
-            { type: 'credit', count: 988888 },
-            { type: 'token', count: 688 },
+            { type: 'credit', count: 4 * 98888 },
+            { type: 'token', count: 272 },
             
             
           ],
         },
         {
-          conditions: 1,
+          conditions: 7,
           join: {
             star: 5,
             rank: 0,
           },
           toolCars: [{ car_id: 'pursport', freeTry: false }],
           rewords: [
-            { type: 'sePart', count: 1 },
+            { type: 'credit', count: 4 * 998888 },
+            { type: 'token', count: 564 },
             
           ],
         },
         {
-          conditions: 3,
+          conditions: 1,
           join: {
             star: 6,
             rank: 0,
           },
           toolCars: [{ car_id: 'pursport', freeTry: false }],
           rewords: [
-            { type: 'token', count: 1776 },
-            { type: 'credit', count: 1758888 },
+            { type: 'token', count: 1388 }
             
           ],
         },
