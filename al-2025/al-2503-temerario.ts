@@ -7,7 +7,7 @@ const specialEventData: SED = {
   havePackConditions: false,
   haveEventKey: false,
   packConditions: 0,
-  dataTableImage:"https://s21.ax1x.com/2025/03/15/pEayQ4P.png",
+  // dataTableImage:"https://s21.ax1x.com/2025/03/15/pEayQ4P.png",
   toolCars: [
     {
       car_id: 'centenario',
@@ -142,7 +142,6 @@ const specialEventData: SED = {
       stage: 2,
       unlockConditions: 0,
       clubRewords: [
-        { type: 'seCard', count: 1 },
         
       ],
       missions: [
@@ -165,7 +164,6 @@ const specialEventData: SED = {
       stage: 3,
       unlockConditions: 0,
       clubRewords: [
-        { type: 'seCard', count: 1 },
         
       ],
       missions: [
@@ -188,7 +186,6 @@ const specialEventData: SED = {
       stage: 4,
       unlockConditions: 0,
       clubRewords: [
-        { type: 'seCard', count: 1 },
         
       ],
       missions: [
@@ -256,7 +253,6 @@ const specialEventData: SED = {
       stage: 7,
       unlockConditions: 85,
       clubRewords: [
-        { type: 'seCard', count: 2 },
         
       ],
       missions: [
@@ -279,7 +275,6 @@ const specialEventData: SED = {
       stage: 8,
       unlockConditions: 85,
       clubRewords: [
-        { type: 'seCard', count: 2 },
         
       ],
       missions: [
@@ -302,7 +297,6 @@ const specialEventData: SED = {
       stage: 9,
       unlockConditions: 85,
       clubRewords: [
-        { type: 'seCard', count: 2 },
         
       ],
       missions: [
@@ -370,7 +364,6 @@ const specialEventData: SED = {
       stage: 12,
       unlockConditions: 170,
       clubRewords: [
-        { type: 'seCard', count: 1 },
         
       ],
       missions: [
@@ -521,7 +514,7 @@ const specialEventData: SED = {
           ],
         },
         {
-          conditions: 5,
+          conditions: 4,
           join: {
             star: 4,
             rank: 0,
@@ -577,7 +570,7 @@ const specialEventData: SED = {
           ],
         },
         {
-          conditions: 5,
+          conditions: 4,
           join: {
             star: 4,
             rank: 0,
@@ -701,7 +694,7 @@ const specialEventData: SED = {
         {
           conditions: 6,
           join: {
-            star: 2,
+            star: 3,
             rank: 0,
           },
           toolCars: [{ car_id: 'sc18', freeTry: true }],
@@ -711,17 +704,6 @@ const specialEventData: SED = {
         },
         {
           conditions: 2,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'sc18', freeTry: true }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-          ],
-        },
-        {
-          conditions: 3,
           join: {
             star: 4,
             rank: 0,
@@ -735,6 +717,17 @@ const specialEventData: SED = {
           conditions: 3,
           join: {
             star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'sc18', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 6,
             rank: 0,
           },
           toolCars: [{ car_id: 'sc18', freeTry: true }],
@@ -768,7 +761,7 @@ const specialEventData: SED = {
         {
           conditions: 6,
           join: {
-            star: 2,
+            star: 3,
             rank: 0,
           },
           toolCars: [{ car_id: 'lpi800', freeTry: true }],
@@ -778,17 +771,6 @@ const specialEventData: SED = {
         },
         {
           conditions: 2,
-          join: {
-            star: 3,
-            rank: 0,
-          },
-          toolCars: [{ car_id: 'lpi800', freeTry: true }],
-          rewords: [
-            { type: 'seCard', count: 2 },
-          ],
-        },
-        {
-          conditions: 3,
           join: {
             star: 4,
             rank: 0,
@@ -802,6 +784,17 @@ const specialEventData: SED = {
           conditions: 3,
           join: {
             star: 5,
+            rank: 0,
+          },
+          toolCars: [{ car_id: 'lpi800', freeTry: true }],
+          rewords: [
+            { type: 'seCard', count: 2 },
+          ],
+        },
+        {
+          conditions: 4,
+          join: {
+            star: 6,
             rank: 0,
           },
           toolCars: [{ car_id: 'lpi800', freeTry: true }],
