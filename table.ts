@@ -1,5 +1,5 @@
-// import data from './gl-2025/gl-2503-499p.ts'
-import data from './al-2025/al-2503-temerario.ts'
+import data from './gl-2025/gl-2504-911gt3.ts'
+// import data from './al-2025/al-2503-temerario.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
 let conditionsCount = 0
