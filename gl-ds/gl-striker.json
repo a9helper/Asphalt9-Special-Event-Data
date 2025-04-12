@@ -762,17 +762,17 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 2520
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 3360
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 4200
                       }
                   ]
@@ -788,32 +788,32 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 2880
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 3840
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 4800
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 720
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 960
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1200
                       }
                   ]
@@ -829,47 +829,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 3240
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 4320
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 5400
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 810
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1080
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1350
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 324
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 432
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 540
                       }
                   ]
@@ -885,47 +885,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 3600
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 4800
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 6000
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 900
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1200
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1500
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 360
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 480
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 600
                       }
                   ]
@@ -941,47 +941,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 3960
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 5280
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 6600
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 990
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1320
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1650
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 396
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 528
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 660
                       }
                   ]
@@ -997,47 +997,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 4500
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 6000
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 7500
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 1125
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1500
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1875
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 450
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 600
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 750
                       }
                   ]
@@ -1060,17 +1060,17 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 3150
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 4200
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 5250
                       }
                   ]
@@ -1086,32 +1086,32 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 3600
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 4800
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 6000
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 900
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1200
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1500
                       }
                   ]
@@ -1127,47 +1127,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 4050
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 5400
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 6750
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 1013
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1350
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1688
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 405
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 540
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 675
                       }
                   ]
@@ -1183,47 +1183,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 4500
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 6000
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 7500
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 1125
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1500
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 1875
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 450
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 600
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 750
                       }
                   ]
@@ -1239,47 +1239,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 4950
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 6600
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 8250
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 1238
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1650
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 2063
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 495
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 660
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 825
                       }
                   ]
@@ -1295,47 +1295,47 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 5625
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 7500
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 9375
                       },
                       {
                           "danger": 2,
-                          "sp": 2700,
+                          "sp": 3900,
                           "packCount": 1407
                       },
                       {
                           "danger": 2,
-                          "sp": 4050,
+                          "sp": 5850,
                           "packCount": 1875
                       },
                       {
                           "danger": 2,
-                          "sp": 6300,
+                          "sp": 9100,
                           "packCount": 2344
                       },
                       {
                           "danger": 1,
-                          "sp": 1200,
+                          "sp": 1800,
                           "packCount": 563
                       },
                       {
                           "danger": 1,
-                          "sp": 1800,
+                          "sp": 2700,
                           "packCount": 750
                       },
                       {
                           "danger": 1,
-                          "sp": 2800,
+                          "sp": 4200,
                           "packCount": 938
                       }
                   ]
@@ -1358,17 +1358,17 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 4200
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 5600
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 7000
                       }
                   ]
@@ -1384,17 +1384,17 @@
                   "tasks": [
                       {
                           "danger": 3,
-                          "sp": 4500,
+                          "sp": 6000,
                           "packCount": 4800
                       },
                       {
                           "danger": 3,
-                          "sp": 6750,
+                          "sp": 9000,
                           "packCount": 6400
                       },
                       {
                           "danger": 3,
-                          "sp": 10500,
+                          "sp": 14000,
                           "packCount": 8000
                       }
                   ]
