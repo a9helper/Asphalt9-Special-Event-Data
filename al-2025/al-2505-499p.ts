@@ -542,7 +542,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sf90xx', freeTry: true }],
+          toolCars: [{ car_id: 'sf90xx', freeTry: false }],
           rewords: [
             { type: 'token', count: 228},
             
@@ -554,7 +554,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sf90xx', freeTry: true }],
+          toolCars: [{ car_id: 'sf90xx', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 1 },
             { type: 'credit', count: 6 * 58888},
@@ -566,7 +566,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sf90xx', freeTry: true }],
+          toolCars: [{ car_id: 'sf90xx', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 2 },
           ],
@@ -577,7 +577,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'sf90xx', freeTry: true }],
+          toolCars: [{ car_id: 'sf90xx', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 4 },
           ],
