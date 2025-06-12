@@ -1,4 +1,4 @@
-import data from './gl-2025/gl-2505-cc850re.ts'
+import data from './gl-2025/gl-2505-aero.ts'
 // import data from './al-2025/al-2505-499p.ts'
 let csv =
   'stage,cond,cond,card,cardClub,part,partClub,token,tokenClub,credit,creditClub,seasonToken\n'
