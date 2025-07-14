@@ -1,0 +1,1312 @@
+{
+  "server": "al",
+  "contestName": "超级蛇：称霸挑战赛",
+  "mapName": "修复：第 4 章图纸车不提供试驾",
+  "isPreRelease": false,
+  "startTime": 1752134400000,
+  "endTime": 1754553599000,
+  "rewords": [],
+  "type": "特殊赛",
+  "featuredCars": [
+    "supersnake"
+  ],
+  "specialEventData": {
+    "havePack": false,
+    "haveClubRewords": true,
+    "haveSkin": true,
+    "havePackConditions": false,
+    "haveEventKey": true,
+    "packConditions": 0,
+    "toolCars": [
+      {
+        "car_id": "gr-1",
+        "fullName": "Ford Shelby GR-1",
+        "nickName": "大野马",
+        "isKeyCar": false,
+        "rankLimits": [],
+        "star": 4
+      },
+      {
+        "car_id": "e1400",
+        "fullName": "Ford Mustang Mach-E1400🔑",
+        "nickName": "电马",
+        "isKeyCar": true,
+        "rankLimits": [],
+        "star": 5
+      },
+      {
+        "car_id": "rtr",
+        "fullName": "Ford Mustang RTR Spec 5 10th Anniv.",
+        "nickName": "野马RTR",
+        "isKeyCar": false,
+        "rankLimits": [],
+        "star": 4
+      },
+      {
+        "car_id": "mc20gt2",
+        "fullName": "Maserati MC20 GT2🔑",
+        "nickName": "MC20GT2",
+        "isKeyCar": true,
+        "rankLimits": [],
+        "star": 5
+      },
+      {
+        "car_id": "fegen3",
+        "fullName": "Formula E Gen 3 EVO Championship Edition🔑",
+        "nickName": "FE Gen3",
+        "isKeyCar": true,
+        "rankLimits": [],
+        "star": 5
+      },
+      {
+        "car_id": "teorema",
+        "fullName": "Pininfarina Teorema",
+        "nickName": "Teorema",
+        "isKeyCar": false,
+        "rankLimits": [],
+        "star": 6
+      },
+      {
+        "car_id": "fordp1",
+        "fullName": "Ford Team FordZilla P1",
+        "nickName": "福特P1",
+        "isKeyCar": false,
+        "rankLimits": [],
+        "star": 6
+      },
+      {
+        "car_id": "tartarus",
+        "fullName": "Raesr Tartarus",
+        "nickName": "Tartarus",
+        "isKeyCar": false,
+        "rankLimits": [],
+        "star": 6
+      },
+      {
+        "car_id": "supersnake",
+        "fullName": "Ford Shelby Super Snake🔑",
+        "nickName": "超级蛇",
+        "isKeyCar": true,
+        "rankLimits": [],
+        "star": 6
+      }
+    ],
+    "notes": [],
+    "processRewords": [
+      {
+        "conditions": 15,
+        "reword": {
+          "type": "credit",
+          "count": 58888
+        }
+      },
+      {
+        "conditions": 45,
+        "reword": {
+          "type": "credit",
+          "count": 68888
+        }
+      },
+      {
+        "conditions": 75,
+        "reword": {
+          "type": "seCard",
+          "count": 1
+        }
+      },
+      {
+        "conditions": 105,
+        "reword": {
+          "type": "credit",
+          "count": 88888
+        }
+      },
+      {
+        "conditions": 135,
+        "reword": {
+          "type": "seCard",
+          "count": 1
+        }
+      },
+      {
+        "conditions": 165,
+        "reword": {
+          "type": "credit",
+          "count": 128888
+        }
+      },
+      {
+        "conditions": 195,
+        "reword": {
+          "type": "seCard",
+          "count": 2
+        }
+      },
+      {
+        "conditions": 225,
+        "reword": {
+          "type": "credit",
+          "count": 188888
+        }
+      },
+      {
+        "conditions": 300,
+        "reword": {
+          "type": "token",
+          "count": 388
+        }
+      },
+      {
+        "conditions": 320,
+        "reword": {
+          "type": "seCard",
+          "count": 4
+        }
+      },
+      {
+        "conditions": 340,
+        "reword": {
+          "type": "sePart",
+          "count": 1
+        }
+      },
+      {
+        "conditions": 360,
+        "reword": {
+          "type": "seCard",
+          "count": 8
+        }
+      },
+      {
+        "conditions": 370,
+        "reword": {
+          "type": "sePart",
+          "count": 2
+        }
+      },
+      {
+        "conditions": 405,
+        "reword": {
+          "type": "seKey",
+          "count": 1
+        }
+      },
+      {
+        "conditions": 415,
+        "reword": {
+          "type": "seSkin",
+          "count": 1
+        }
+      }
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "unlockConditions": 0,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 0,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "supersnake",
+                "freeTry": true
+              }
+            ],
+            "rewords": []
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "unlockConditions": 0,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "gr-1",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 151104
+              },
+              {
+                "type": "token",
+                "count": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "unlockConditions": 0,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "e1400",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 151104
+              },
+              {
+                "type": "token",
+                "count": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "unlockConditions": 0,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "rtr",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 151104
+              },
+              {
+                "type": "token",
+                "count": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 5,
+        "unlockConditions": 0,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "mc20gt2",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 151104
+              },
+              {
+                "type": "token",
+                "count": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 6,
+        "unlockConditions": 90,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 0,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "supersnake",
+                "freeTry": true
+              }
+            ],
+            "rewords": []
+          }
+        ]
+      },
+      {
+        "stage": 7,
+        "unlockConditions": 90,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fegen3",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 188880
+              },
+              {
+                "type": "token",
+                "count": 108
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 8,
+        "unlockConditions": 90,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "teorema",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 188880
+              },
+              {
+                "type": "token",
+                "count": 108
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 9,
+        "unlockConditions": 90,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fordp1",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 188880
+              },
+              {
+                "type": "token",
+                "count": 108
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 10,
+        "unlockConditions": 90,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 30,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "tartarus",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              },
+              {
+                "type": "credit",
+                "count": 188880
+              },
+              {
+                "type": "token",
+                "count": 108
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 11,
+        "unlockConditions": 200,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 0,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "supersnake",
+                "freeTry": true
+              }
+            ],
+            "rewords": []
+          }
+        ]
+      },
+      {
+        "stage": 12,
+        "unlockConditions": 200,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "gr-1",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 228
+              }
+            ]
+          },
+          {
+            "conditions": 7,
+            "join": {
+              "star": 2,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "gr-1",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 1
+              },
+              {
+                "type": "credit",
+                "count": 353328
+              }
+            ]
+          },
+          {
+            "conditions": 2,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "gr-1",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "conditions": 4,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "gr-1",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 13,
+        "unlockConditions": 200,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "e1400",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 228
+              }
+            ]
+          },
+          {
+            "conditions": 7,
+            "join": {
+              "star": 2,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "e1400",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 1
+              },
+              {
+                "type": "credit",
+                "count": 353328
+              }
+            ]
+          },
+          {
+            "conditions": 2,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "e1400",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "conditions": 4,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "e1400",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 14,
+        "unlockConditions": 200,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "rtr",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 228
+              }
+            ]
+          },
+          {
+            "conditions": 7,
+            "join": {
+              "star": 2,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "rtr",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 1
+              },
+              {
+                "type": "credit",
+                "count": 353328
+              }
+            ]
+          },
+          {
+            "conditions": 2,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "rtr",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "conditions": 5,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "rtr",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 15,
+        "unlockConditions": 200,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "mc20gt2",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 228
+              }
+            ]
+          },
+          {
+            "conditions": 7,
+            "join": {
+              "star": 2,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "mc20gt2",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 1
+              },
+              {
+                "type": "credit",
+                "count": 353328
+              }
+            ]
+          },
+          {
+            "conditions": 2,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "mc20gt2",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "conditions": 5,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "mc20gt2",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 16,
+        "unlockConditions": 270,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 0,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "supersnake",
+                "freeTry": true
+              }
+            ],
+            "rewords": []
+          }
+        ]
+      },
+      {
+        "stage": 17,
+        "unlockConditions": 270,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fegen3",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 348
+              }
+            ]
+          },
+          {
+            "conditions": 6,
+            "join": {
+              "star": 2,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fegen3",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "credit",
+                "count": 533328
+              }
+            ]
+          },
+          {
+            "conditions": 2,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fegen3",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "conditions": 4,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fegen3",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "conditions": 5,
+            "join": {
+              "star": 5,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fegen3",
+                "freeTry": true
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 18,
+        "unlockConditions": 270,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "teorema",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 348
+              }
+            ]
+          },
+          {
+            "conditions": 6,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "teorema",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "credit",
+                "count": 533328
+              }
+            ]
+          },
+          {
+            "conditions": 3,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "teorema",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "conditions": 4,
+            "join": {
+              "star": 5,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "teorema",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "conditions": 4,
+            "join": {
+              "star": 6,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "teorema",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 19,
+        "unlockConditions": 270,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fordp1",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 348
+              }
+            ]
+          },
+          {
+            "conditions": 6,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fordp1",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "credit",
+                "count": 533328
+              }
+            ]
+          },
+          {
+            "conditions": 3,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fordp1",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "conditions": 4,
+            "join": {
+              "star": 5,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fordp1",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "conditions": 5,
+            "join": {
+              "star": 6,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "fordp1",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": 20,
+        "unlockConditions": 270,
+        "clubRewords": [],
+        "missions": [
+          {
+            "conditions": 8,
+            "join": {
+              "star": 1,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "tartarus",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "token",
+                "count": 348
+              }
+            ]
+          },
+          {
+            "conditions": 6,
+            "join": {
+              "star": 3,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "tartarus",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "credit",
+                "count": 533328
+              }
+            ]
+          },
+          {
+            "conditions": 5,
+            "join": {
+              "star": 4,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "tartarus",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "conditions": 5,
+            "join": {
+              "star": 5,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "tartarus",
+                "freeTry": false
+              }
+            ],
+            "rewords": [
+              {
+                "type": "seCard",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "conditions": 1,
+            "join": {
+              "star": 6,
+              "rank": 0
+            },
+            "toolCars": [
+              {
+                "car_id": "tartarus",
+                "freeTry": false
+              }
+            ],
+            "rewords": []
+          }
+        ]
+      }
+    ]
+  }
+}

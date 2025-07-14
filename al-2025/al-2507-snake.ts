@@ -103,8 +103,8 @@ const specialEventData: SED = {
     { conditions: 320, reword: { type: 'seCard', count: 4 } },
     { conditions: 340, reword: { type: 'sePart', count: 1 } },
     { conditions: 360, reword: { type: 'seCard', count: 8 } },
-    { conditions: 370, reword: { type: 'sePart', count: 2 } },
-    { conditions: 405, reword: { type: 'seKey', count: 1 } },
+    { conditions: 370, reword: { type: 'seKey', count: 1 } },
+    { conditions: 380, reword: { type: 'sePart', count: 2 } },
     { conditions: 415, reword: { type: 'seSkin', count: 1 } },
 
 
@@ -485,7 +485,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'rtr', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: false }],
           rewords: [
             { type: 'token', count: 228},
             
@@ -497,7 +497,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'rtr', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 1 },
             { type: 'credit', count: 6 * 58888},
@@ -509,7 +509,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'rtr', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 2 },
           ],
@@ -520,7 +520,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'rtr', freeTry: true }],
+          toolCars: [{ car_id: 'rtr', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 4 },
           ],
@@ -688,7 +688,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'teorema', freeTry: true }],
+          toolCars: [{ car_id: 'teorema', freeTry: false }],
           rewords: [
             { type: 'token', count: 348 },
             
@@ -700,7 +700,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'teorema', freeTry: true }],
+          toolCars: [{ car_id: 'teorema', freeTry: false }],
           rewords: [
             { type: 'credit', count: 6 * 88888},
           ],
@@ -711,7 +711,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'teorema', freeTry: true }],
+          toolCars: [{ car_id: 'teorema', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 2 },
           ],
@@ -722,7 +722,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'teorema', freeTry: true }],
+          toolCars: [{ car_id: 'teorema', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 3 },
           ],
@@ -733,7 +733,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'teorema', freeTry: true }],
+          toolCars: [{ car_id: 'teorema', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 4 },
             
@@ -756,7 +756,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fordp1', freeTry: true }],
+          toolCars: [{ car_id: 'fordp1', freeTry: false }],
           rewords: [
             { type: 'token', count: 348 },
             
@@ -768,7 +768,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fordp1', freeTry: true }],
+          toolCars: [{ car_id: 'fordp1', freeTry: false }],
           rewords: [
             { type: 'credit', count: 6 * 88888},
           ],
@@ -779,7 +779,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fordp1', freeTry: true }],
+          toolCars: [{ car_id: 'fordp1', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 2 },
           ],
@@ -790,7 +790,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fordp1', freeTry: true }],
+          toolCars: [{ car_id: 'fordp1', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 3 },
           ],
@@ -801,7 +801,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fordp1', freeTry: true }],
+          toolCars: [{ car_id: 'fordp1', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 4 },
             
@@ -824,7 +824,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tartarus', freeTry: true }],
+          toolCars: [{ car_id: 'tartarus', freeTry: false }],
           rewords: [
             { type: 'token', count: 348 },
             
@@ -836,7 +836,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tartarus', freeTry: true }],
+          toolCars: [{ car_id: 'tartarus', freeTry: false }],
           rewords: [
             { type: 'credit', count: 6 * 88888},
           ],
@@ -847,7 +847,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tartarus', freeTry: true }],
+          toolCars: [{ car_id: 'tartarus', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 5 },
           ],
@@ -858,7 +858,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tartarus', freeTry: true }],
+          toolCars: [{ car_id: 'tartarus', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 4 },
           ],
@@ -869,7 +869,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tartarus', freeTry: true }],
+          toolCars: [{ car_id: 'tartarus', freeTry: false }],
           rewords: [
             
             
