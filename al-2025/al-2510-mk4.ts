@@ -155,7 +155,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 8 * 18888},
-            { type: 'token', count: 90 },
+            { type: 'token', count: 126 },
           ],
         },
       ],
@@ -177,7 +177,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 8 * 18888},
-            { type: 'token', count: 90 },
+            { type: 'token', count: 126 },
           ],
         },
       ],
@@ -199,7 +199,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 8 * 18888},
-            { type: 'token', count: 90 },
+            { type: 'token', count: 126 },
           ],
         },
       ],
@@ -222,7 +222,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 8 * 18888},
-            { type: 'token', count: 90 },
+            { type: 'token', count: 126 },
           ],
         },
       ],
@@ -265,7 +265,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 10 * 18888},
-            { type: 'token', count: 108 },
+            { type: 'token', count: 144 },
           ],
         },
       ],
@@ -287,7 +287,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 10 * 18888},
-            { type: 'token', count: 108 },
+            { type: 'token', count: 144 },
           ],
         },
       ],
@@ -309,7 +309,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 10 * 18888},
-            { type: 'token', count: 108 },
+            { type: 'token', count: 144 },
           ],
         },
       ],
@@ -332,7 +332,7 @@ const specialEventData: SED = {
           rewords: [
             { type: 'seCard', count: 2 },
             { type: 'credit', count: 10 * 18888},
-            { type: 'token', count: 108 },
+            { type: 'token', count: 144 },
           ],
         },
       ],
@@ -831,7 +831,7 @@ const specialEventData: SED = {
           ],
         },
         {
-          conditions: 6,
+          conditions: 8,
           join: {
             star: 3,
             rank: 0,
@@ -839,17 +839,18 @@ const specialEventData: SED = {
           toolCars: [{ car_id: 'lykanneon', freeTry: false }],
           rewords: [
             { type: 'credit', count: 6 * 88888},
+            { type: 'seCard', count: 2 },
           ],
         },
         {
-          conditions: 5,
+          conditions: 3,
           join: {
             star: 4,
             rank: 0,
           },
           toolCars: [{ car_id: 'lykanneon', freeTry: false }],
           rewords: [
-            { type: 'seCard', count: 5 },
+            { type: 'seCard', count: 3 },
           ],
         },
         {
