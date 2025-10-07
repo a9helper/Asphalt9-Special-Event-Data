@@ -370,7 +370,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'supraracing', freeTry: true }],
+          toolCars: [{ car_id: 'supraracing', freeTry: false }],
           rewords: [
             { type: 'token', count: 228},
             
@@ -382,7 +382,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'supraracing', freeTry: true }],
+          toolCars: [{ car_id: 'supraracing', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 1 },
             { type: 'credit', count: 6 * 58888},
@@ -394,7 +394,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'supraracing', freeTry: true }],
+          toolCars: [{ car_id: 'supraracing', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 2 },
           ],
@@ -405,7 +405,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'supraracing', freeTry: true }],
+          toolCars: [{ car_id: 'supraracing', freeTry: false }],
           rewords: [
             { type: 'seCard', count: 4 },
           ],
@@ -485,7 +485,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mk2', freeTry: false }],
+          toolCars: [{ car_id: 'mk2', freeTry: true }],
           rewords: [
             { type: 'token', count: 228},
             
@@ -497,7 +497,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mk2', freeTry: false }],
+          toolCars: [{ car_id: 'mk2', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 1 },
             { type: 'credit', count: 6 * 58888},
@@ -509,7 +509,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mk2', freeTry: false }],
+          toolCars: [{ car_id: 'mk2', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 2 },
           ],
@@ -520,7 +520,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'mk2', freeTry: false }],
+          toolCars: [{ car_id: 'mk2', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 4 },
           ],
@@ -688,7 +688,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'venomgt', freeTry: false }],
+          toolCars: [{ car_id: 'venomgt', freeTry: true }],
           rewords: [
             { type: 'token', count: 348 },
             
@@ -700,7 +700,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'venomgt', freeTry: false }],
+          toolCars: [{ car_id: 'venomgt', freeTry: true }],
           rewords: [
             { type: 'credit', count: 6 * 88888},
           ],
@@ -711,7 +711,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'venomgt', freeTry: false }],
+          toolCars: [{ car_id: 'venomgt', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 2 },
           ],
@@ -722,7 +722,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'venomgt', freeTry: false }],
+          toolCars: [{ car_id: 'venomgt', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3 },
           ],
@@ -733,7 +733,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'venomgt', freeTry: false }],
+          toolCars: [{ car_id: 'venomgt', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 4 },
             
