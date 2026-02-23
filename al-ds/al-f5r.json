@@ -1,8 +1,9 @@
 {
+  "_id":"al-f5r",
   "chapters": [
     {
       "chapter": 1,
-      "title": "1.深藏不露",
+      "title": "1.旧日踪影",
       "coinPerPack": 48,
       "stages": [
         {
@@ -67,7 +68,7 @@
     },
     {
       "chapter": 2,
-      "title": "2.神秘比赛 XKR-S",
+      "title": "2.神秘地带 DS龙",
       "coinPerPack": 88,
       "stages": [
         {
@@ -253,7 +254,7 @@
     },
     {
       "chapter": 3,
-      "title": "3.打开天窗 MC20",
+      "title": "3.力挽狂澜 Solus GT",
       "coinPerPack": 128,
       "stages": [
         {
@@ -495,7 +496,7 @@
     },
     {
       "chapter": 4,
-      "title": "4.灰熊出击 Asfane",
+      "title": "4.荣耀回响 越野牛",
       "coinPerPack": 168,
       "stages": [
         {
@@ -737,7 +738,7 @@
     },
     {
       "chapter": 5,
-      "title": "5.亦敌亦友 Sabre",
+      "title": "5.抉择时刻 A秋王",
       "coinPerPack": 208,
       "stages": [
         {
@@ -1035,7 +1036,7 @@
     },
     {
       "chapter": 6,
-      "title": "6.危险边缘 CC850",
+      "title": "6.传奇启程 银电",
       "coinPerPack": 248,
       "stages": [
         {
@@ -1333,7 +1334,7 @@
     },
     {
       "chapter": 7,
-      "title": "7. 火线追击 Nevera R",
+      "title": "7.速度传承 F5R",
       "coinPerPack": 288,
       "stages": [
         {
