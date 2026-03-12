@@ -8,58 +8,59 @@ const specialEventData: SED = {
   haveEventKey: false,
   packConditions: 235,
   toolCars: [
+    
     {
-      car_id: 'diablo',
-      fullName: 'Lamborghini Diablo GT',
-      nickName: 'Diablo',
+      car_id: 'project8',
+      fullName: 'Jaguar XE SV Project 8',
+      nickName: 'Project8',
       isKeyCar: false,
       rankLimits: [],
       star: 5,
     },
     {
-      car_id: 'fegen3',
-      fullName: 'Formula E Gen 3 EVO Championship Edition🔑',
-      nickName: 'FE Gen3',
-      isKeyCar: true,
+      car_id: 'ferrari_f12_berlinetta',
+      fullName: 'Ferrari F12 Berlinetta',
+      nickName: 'Berlinetta',
+      isKeyCar: false,
       rankLimits: [],
       star: 5,
     },
     {
-      car_id: 'tsr-s',
-      fullName: 'Zenvo TSR-S🔑',
-      nickName: 'TSR-S',
-      isKeyCar: true,
+      car_id: 'berlinetta',
+      fullName: 'Puritalia Berlinetta',
+      nickName: 'Berlinetta',
+      isKeyCar: false,
       rankLimits: [],
-      star: 6,
+      star: 5,
     },
     {
-      car_id: 'ts1',
-      fullName: 'Zenvo TS1 GT Anniversary',
-      nickName: '自燃车',
+      car_id: 'revuelto',
+      fullName: 'Lamborghini Revuelto',
+      nickName: 'R牛',
       isKeyCar: false,
       rankLimits: [],
       star: 6,
     },
     {
-      car_id: 'bev',
-      fullName: 'Lexus Electrified Sport Concept',
-      nickName: 'lexus concept',
+      car_id: 'speedtail',
+      fullName: 'McLaren Speedtail',
+      nickName: '速尾',
       isKeyCar: false,
       rankLimits: [],
       star: 6,
     },
     {
-      car_id: 'w_motors_fenyr_super_sport_cny_edition',
-      fullName: 'W Motors Fenyr Super Sport CNY Edition',
-      nickName: '狼王春节版',
+      car_id: '499p',
+      fullName: 'Ferrari 499P Modificata🔑',
+      nickName: '499P',
       isKeyCar: true,
       rankLimits: [],
       star: 6,
     },
     {
-      car_id: 'aero',
-      fullName: 'SSC Ultimate Aero TT',
-      nickName: 'Aero TT',
+      car_id: 'mosler_super_gt',
+      fullName: 'Mosler Super GT',
+      nickName: '莫斯勒 SuperGT',
       isKeyCar: false,
       rankLimits: [],
       star: 6,
@@ -71,9 +72,9 @@ const specialEventData: SED = {
 
 
     {
-      car_id: 'tur',
-      fullName: 'Zenvo Aurora Tur',
-      nickName: '极光',
+      car_id: 'htt',
+      fullName: 'HTT Locus Plethore LC750',
+      nickName: 'HTT',
       isKeyCar: false,
       rankLimits: [],
       star: 6,
@@ -97,6 +98,7 @@ const specialEventData: SED = {
     { conditions: 288, reword: { type: 'sePart', count: 1 } },
     { conditions: 308, reword: { type: 'seCard', count: 10 } },
     { conditions: 318, reword: { type: 'sePart', count: 1 } },
+    { conditions: 328, reword: { type: 'seSkin', count: 1 } },
 
 
 
@@ -117,7 +119,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: true }],
+          toolCars: [{ car_id: 'htt', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 4 * 18888},
@@ -142,7 +144,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'diablo', freeTry: true }],
+          toolCars: [{ car_id: 'project8', freeTry: true }],
           rewords: [
             { type: 'credit', count: 5 * 28888},
             { type: 'sePack', count: 3 },
@@ -165,7 +167,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fegen3', freeTry: true }],
+          toolCars: [{ car_id: 'ferrari_f12_berlinetta', freeTry: true }],
           rewords: [
             // { type: 'credit', count: 5 * 28888},
             { type: 'sePack', count: 3 },
@@ -189,7 +191,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tsr-s', freeTry: true }],
+          toolCars: [{ car_id: 'berlinetta', freeTry: true }],
           rewords: [
             { type: 'credit', count: 5 * 28888},
             { type: 'sePack', count: 3 },
@@ -213,7 +215,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'ts1', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             // { type: 'credit', count: 5 * 28888},
             { type: 'sePack', count: 3 },
@@ -237,10 +239,10 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: true }],
+          toolCars: [{ car_id: 'htt', freeTry: true }],
           rewords: [
             
-            { type: 'credit', count: 10 * 18888},
+            { type: 'credit', count: 9 * 18888},
             { type: 'sePack', count: 3 },
             { type: 'seCard', count: 2 },
           ],
@@ -262,7 +264,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'bev', freeTry: true }],
+          toolCars: [{ car_id: 'speedtail', freeTry: true }],
           rewords: [
             { type: 'credit', count: 5 * 38888},
             { type: 'sePack', count: 4 },
@@ -286,7 +288,7 @@ const specialEventData: SED = {
             rank: 0,
           },
           toolCars: [
-            { car_id: 'w_motors_fenyr_super_sport_cny_edition', freeTry: true }
+            { car_id: '499p', freeTry: true }
           ],
           rewords: [
             { type: 'credit', count: 5 * 38888},
@@ -311,7 +313,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'aero', freeTry: true }],
+          toolCars: [{ car_id: 'mosler_super_gt', freeTry: true }],
           rewords: [
             { type: 'credit', count: 5 * 38888},
             { type: 'sePack', count: 4 },
@@ -335,7 +337,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: true }],
+          toolCars: [{ car_id: 'htt', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 5 * 38888},
@@ -360,7 +362,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'diablo', freeTry: true }],
+          toolCars: [{ car_id: 'project8', freeTry: true }],
           rewords: [
             
           ],
@@ -371,7 +373,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'diablo', freeTry: true }],
+          toolCars: [{ car_id: 'project8', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 4 * 58888 },
@@ -384,19 +386,19 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'diablo', freeTry: true }],
+          toolCars: [{ car_id: 'project8', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3  },
             { type: 'token', count: 114  },
           ],
         },
         {
-          conditions: 6,
+          conditions: 7,
           join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'diablo', freeTry: true }],
+          toolCars: [{ car_id: 'project8', freeTry: true }],
           rewords: [
             { type: 'sePack', count: 5  },
             { type: 'sePart', count: 1  },
@@ -419,7 +421,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fegen3', freeTry: true }],
+          toolCars: [{ car_id: 'ferrari_f12_berlinetta', freeTry: true }],
           rewords: [
             
           ],
@@ -430,7 +432,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fegen3', freeTry: true }],
+          toolCars: [{ car_id: 'ferrari_f12_berlinetta', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 4 * 58888 },
@@ -443,19 +445,19 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fegen3', freeTry: true }],
+          toolCars: [{ car_id: 'ferrari_f12_berlinetta', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3  },
             { type: 'token', count: 114  },
           ],
         },
         {
-          conditions: 7,
+          conditions: 6,
           join: {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'fegen3', freeTry: true }],
+          toolCars: [{ car_id: 'ferrari_f12_berlinetta', freeTry: true }],
           rewords: [
             { type: 'sePack', count: 5  },
             { type: 'sePart', count: 1  },
@@ -479,7 +481,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tsr-s', freeTry: true }],
+          toolCars: [{ car_id: 'berlinetta', freeTry: true }],
           rewords: [
             
           ],
@@ -490,7 +492,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tsr-s', freeTry: true }],
+          toolCars: [{ car_id: 'berlinetta', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 4 * 68888 },
@@ -503,7 +505,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tsr-s', freeTry: true }],
+          toolCars: [{ car_id: 'berlinetta', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3  },
             { type: 'token', count: 84  },
@@ -515,18 +517,18 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tsr-s', freeTry: true }],
+          toolCars: [{ car_id: 'berlinetta', freeTry: true }],
           rewords: [
             { type: 'token', count: 114  },
           ],
         },
         {
-          conditions: 6,
+          conditions: 7,
           join: {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tsr-s', freeTry: true }],
+          toolCars: [{ car_id: 'berlinetta', freeTry: true }],
           rewords: [
             { type: 'sePack', count: 5  },
             { type: 'sePart', count: 1  },
@@ -551,7 +553,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'ts1', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             
           ],
@@ -562,7 +564,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'ts1', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 4 * 68888 },
@@ -574,7 +576,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'ts1', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             
             { type: 'token', count: 120  },
@@ -586,7 +588,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'ts1', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3  },
           ],
@@ -597,7 +599,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'ts1', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             { type: 'sePack', count: 5  },
             { type: 'credit', count: 114  },
@@ -609,7 +611,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'ts1', freeTry: true }],
+          toolCars: [{ car_id: 'revuelto', freeTry: true }],
           rewords: [
             { type: 'sePart', count: 1  },
           ],
@@ -631,7 +633,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'bev', freeTry: true }],
+          toolCars: [{ car_id: 'speedtail', freeTry: true }],
           rewords: [
             
           ],
@@ -642,7 +644,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'bev', freeTry: true }],
+          toolCars: [{ car_id: 'speedtail', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 5 * 68888 },
@@ -654,7 +656,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'bev', freeTry: true }],
+          toolCars: [{ car_id: 'speedtail', freeTry: true }],
           rewords: [
             
             { type: 'token', count: 152+84  },
@@ -666,7 +668,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'bev', freeTry: true }],
+          toolCars: [{ car_id: 'speedtail', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3  },
           ],
@@ -677,18 +679,18 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'bev', freeTry: true }],
+          toolCars: [{ car_id: 'speedtail', freeTry: true }],
           rewords: [
             { type: 'sePack', count: 7  },
           ],
         },
         {
-          conditions: 2,
+          conditions: 3,
           join: {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'bev', freeTry: true }],
+          toolCars: [{ car_id: 'speedtail', freeTry: true }],
           rewords: [
             { type: 'sePart', count: 2  },
           ],
@@ -711,7 +713,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'w_motors_fenyr_super_sport_cny_edition', freeTry: true }],
+          toolCars: [{ car_id: '499p', freeTry: true }],
           rewords: [
             
           ],
@@ -722,7 +724,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'w_motors_fenyr_super_sport_cny_edition', freeTry: true }],
+          toolCars: [{ car_id: '499p', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 4 * 88888 },
@@ -734,7 +736,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'w_motors_fenyr_super_sport_cny_edition', freeTry: true }],
+          toolCars: [{ car_id: '499p', freeTry: true }],
           rewords: [
             
             { type: 'token', count: 264  },
@@ -746,7 +748,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'w_motors_fenyr_super_sport_cny_edition', freeTry: true }],
+          toolCars: [{ car_id: '499p', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 3  },
           ],
@@ -757,18 +759,18 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'w_motors_fenyr_super_sport_cny_edition', freeTry: true }],
+          toolCars: [{ car_id: '499p', freeTry: true }],
           rewords: [
             { type: 'sePack', count: 5  },
           ],
         },
         {
-          conditions: 2,
+          conditions: 3,
           join: {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'w_motors_fenyr_super_sport_cny_edition', freeTry: true }],
+          toolCars: [{ car_id: '499p', freeTry: true }],
           rewords: [
             { type: 'sePart', count: 2  },
           ],
@@ -791,7 +793,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'aero', freeTry: true }],
+          toolCars: [{ car_id: 'mosler_super_gt', freeTry: true }],
           rewords: [
             
           ],
@@ -802,7 +804,7 @@ const specialEventData: SED = {
             star: 2,
             rank: 0,
           },
-          toolCars: [{ car_id: 'aero', freeTry: true }],
+          toolCars: [{ car_id: 'mosler_super_gt', freeTry: true }],
           rewords: [
             
             { type: 'credit', count: 6 * 88888 },
@@ -814,7 +816,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'aero', freeTry: true }],
+          toolCars: [{ car_id: 'mosler_super_gt', freeTry: true }],
           rewords: [
             
             { type: 'token', count: 114  },
@@ -827,7 +829,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'aero', freeTry: true }],
+          toolCars: [{ car_id: 'mosler_super_gt', freeTry: true }],
           rewords: [
             { type: 'seCard', count: 4  },
           ],
@@ -838,7 +840,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'aero', freeTry: true }],
+          toolCars: [{ car_id: 'mosler_super_gt', freeTry: true }],
           rewords: [
             { type: 'sePack', count: 7 },
             { type: 'token', count: 152  },
@@ -850,7 +852,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'aero', freeTry: true }],
+          toolCars: [{ car_id: 'mosler_super_gt', freeTry: true }],
           rewords: [
             { type: 'sePart', count: 2  },
           ],
@@ -873,7 +875,7 @@ const specialEventData: SED = {
             star: 3,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: false }],
+          toolCars: [{ car_id: 'htt', freeTry: false }],
           rewords: [
             
             { type: 'token', count: 272  },
@@ -887,7 +889,7 @@ const specialEventData: SED = {
             star: 4,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: false }],
+          toolCars: [{ car_id: 'htt', freeTry: false }],
           rewords: [
             { type: 'token', count: 352  },
             { type: 'credit', count: 4 * 188888  },
@@ -899,7 +901,7 @@ const specialEventData: SED = {
             star: 5,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: false }],
+          toolCars: [{ car_id: 'htt', freeTry: false }],
           rewords: [
             { type: 'token', count: 3 * 188  },
             { type: 'credit', count: 4 * 998888  },
@@ -911,7 +913,7 @@ const specialEventData: SED = {
             star: 6,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: false }],
+          toolCars: [{ car_id: 'htt', freeTry: false }],
           rewords: [
             { type: 'token', count: 1388  },
           ],
@@ -932,7 +934,7 @@ const specialEventData: SED = {
             star: 1,
             rank: 0,
           },
-          toolCars: [{ car_id: 'tur', freeTry: true }],
+          toolCars: [{ car_id: 'htt', freeTry: true }],
           rewords: [
             
           ],
