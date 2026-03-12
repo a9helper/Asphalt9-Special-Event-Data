@@ -28,7 +28,7 @@ const specialEventData: SED = {
     {
       car_id: 'berlinetta',
       fullName: 'Puritalia Berlinetta',
-      nickName: 'Berlinetta',
+      nickName: 'F12 Berlinetta',
       isKeyCar: false,
       rankLimits: [],
       star: 5,
